@@ -12,13 +12,13 @@ type Screen = 'setup' | 'quiz' | 'results'
 export default function App() {
   const { theme, toggleTheme } = useTheme()
   const [screen, setScreen] = useState<Screen>('setup')
-  const [config, setConfig] = useState<QuizConfig>({ category: null, level: 'all', count: 10 })
+  const [config, setConfig] = useState<QuizConfig>({ unit: 1 })
   const [questions, setQuestions] = useState<Question[]>([])
   const [results, setResults] = useState<QuizResult | null>(null)
 
   const startQuiz = (cfg: QuizConfig) => {
     setConfig(cfg)
-    setQuestions(generateQuiz(cfg.category, cfg.level, cfg.count))
+    setQuestions(generateQuiz(cfg.unit))
     setScreen('quiz')
   }
 

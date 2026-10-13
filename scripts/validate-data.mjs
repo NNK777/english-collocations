@@ -23,14 +23,12 @@ function countWholeWord(text, word) {
   return matches ? matches.length : 0
 }
 
-const byCategory = {}
-const byLevel = {}
+const byUnit = {}
 const partners = new Set()
 const ineligible = []
 
 for (const c of data) {
-  byCategory[c.category] = (byCategory[c.category] ?? 0) + 1
-  byLevel[c.level] = (byLevel[c.level] ?? 0) + 1
+  byUnit[c.unit] = (byUnit[c.unit] ?? 0) + 1
   const partner = partnerOf(c.phrase)
   if (!partner || countWholeWord(c.example, partner) !== 1) {
     ineligible.push(c)
@@ -40,9 +38,8 @@ for (const c of data) {
 }
 
 console.log(`Всего коллокаций: ${data.length}`)
-console.log('По категориям:', byCategory)
-console.log('По уровням:', byLevel)
-console.log(`Допущено к викторине: ${data.length - ineligible.length}`)
+console.log('По юнитам:', byUnit)
+console.log(`Допущено к тестированию: ${data.length - ineligible.length}`)
 console.log(`Уникальных партнёров для дистракторов: ${partners.size}`)
 if (ineligible.length > 0) {
   console.log('Не допущены (партнёр не найден в примере ровно 1 раз):')

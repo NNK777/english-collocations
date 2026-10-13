@@ -1,219 +1,1666 @@
 [
-  { "id": 1, "phrase": "make a decision", "translation": "принять решение", "example": "We need to make a final decision today.", "category": "work", "level": "B1" },
-  { "id": 2, "phrase": "take responsibility", "translation": "нести ответственность", "example": "She takes full responsibility for her team's results.", "category": "work", "level": "B2" },
-  { "id": 3, "phrase": "meet a deadline", "translation": "уложиться в срок", "example": "The team managed to meet the deadline.", "category": "work", "level": "B1" },
-  { "id": 4, "phrase": "do your job", "translation": "делать свою работу", "example": "He always does his job properly.", "category": "work", "level": "A2" },
-  { "id": 5, "phrase": "get a promotion", "translation": "получить повышение", "example": "After two years she got a promotion.", "category": "work", "level": "B1" },
-  { "id": 6, "phrase": "lose your job", "translation": "потерять работу", "example": "He lost his job last spring.", "category": "work", "level": "B1" },
-  { "id": 7, "phrase": "apply for a job", "translation": "подать заявку на вакансию", "example": "I applied for a job at a big company.", "category": "work", "level": "A2" },
-  { "id": 8, "phrase": "do overtime", "translation": "работать сверхурочно", "example": "He often does overtime on Fridays.", "category": "work", "level": "B1" },
-  { "id": 9, "phrase": "take a break", "translation": "сделать перерыв", "example": "Let's take a short break before continuing.", "category": "work", "level": "A2" },
-  { "id": 10, "phrase": "run a business", "translation": "вести бизнес", "example": "They run a small family business.", "category": "work", "level": "B1" },
-  { "id": 11, "phrase": "set up a company", "translation": "основать компанию", "example": "She set up her own company in 2015.", "category": "work", "level": "B2" },
-  { "id": 12, "phrase": "draw up a contract", "translation": "составить договор", "example": "The lawyers drew up the contract last week.", "category": "work", "level": "C1" },
-  { "id": 13, "phrase": "carry out research", "translation": "проводить исследование", "example": "Scientists carried out research on new materials.", "category": "work", "level": "B2" },
-  { "id": 14, "phrase": "come to an agreement", "translation": "прийти к соглашению", "example": "Both sides came to an agreement quickly.", "category": "work", "level": "B2" },
-  { "id": 15, "phrase": "take on a project", "translation": "взяться за проект", "example": "The team took on a difficult project.", "category": "work", "level": "B1" },
-  { "id": 16, "phrase": "keep up with the work", "translation": "успевать за работой", "example": "It's hard to keep up with all the work at this job.", "category": "work", "level": "B2" },
-  { "id": 17, "phrase": "make progress", "translation": "добиваться прогресса", "example": "We're making good progress on the new product.", "category": "work", "level": "A2" },
-  { "id": 18, "phrase": "take action", "translation": "предпринять меры", "example": "The company must take action now.", "category": "work", "level": "B1" },
-  { "id": 19, "phrase": "raise an issue", "translation": "поднять вопрос", "example": "He raised an important issue at the meeting.", "category": "work", "level": "B2" },
-  { "id": 20, "phrase": "put forward a proposal", "translation": "выдвинуть предложение", "example": "She put forward a new proposal.", "category": "work", "level": "C1" },
-  { "id": 21, "phrase": "come up with an idea", "translation": "придумать идею", "example": "He came up with a brilliant idea.", "category": "work", "level": "A2" },
-  { "id": 22, "phrase": "work out a solution", "translation": "найти решение", "example": "They worked out a solution to the problem.", "category": "work", "level": "B1" },
-  { "id": 23, "phrase": "take over the company", "translation": "взять на себя управление компанией", "example": "The new owner took over the company.", "category": "work", "level": "C1" },
-  { "id": 24, "phrase": "keep your cool", "translation": "сохранять спокойствие", "example": "You need to keep your cool under pressure.", "category": "work", "level": "B2" },
-  { "id": 25, "phrase": "get along with colleagues", "translation": "ладить с коллегами", "example": "It's important to get along with your colleagues.", "category": "work", "level": "A2" },
-  { "id": 26, "phrase": "make a presentation", "translation": "сделать презентацию", "example": "I have to make a presentation tomorrow.", "category": "work", "level": "A2" },
-  { "id": 27, "phrase": "do the paperwork", "translation": "заниматься бумажной работой", "example": "He spends hours doing the paperwork.", "category": "work", "level": "B1" },
-  { "id": 28, "phrase": "keep an eye on something", "translation": "следить за чем-то", "example": "The manager keeps an eye on the budget.", "category": "work", "level": "B1" },
-  { "id": 29, "phrase": "take the initiative", "translation": "проявить инициативу", "example": "She took the initiative and started the project.", "category": "work", "level": "C1" },
-  { "id": 30, "phrase": "make a point", "translation": "высказать мнение", "example": "He made a good point during the discussion.", "category": "work", "level": "B2" },
-  { "id": 31, "phrase": "make a mistake", "translation": "допустить ошибку", "example": "I made a small mistake on the test.", "category": "work", "level": "A2" },
-  { "id": 32, "phrase": "take the blame", "translation": "брать вину на себя", "example": "No one wanted to take the blame for the failure.", "category": "work", "level": "B2" },
-  { "id": 33, "phrase": "work part-time", "translation": "работать неполный день", "example": "She works part-time while studying.", "category": "work", "level": "A2" },
-  { "id": 34, "phrase": "get a raise", "translation": "получить прибавку к зарплате", "example": "He got a small raise last month.", "category": "work", "level": "B1" },
-  { "id": 35, "phrase": "make ends meet", "translation": "сводить концы с концами", "example": "It's hard to make ends meet on this salary.", "category": "work", "level": "C1" },
-  { "id": 36, "phrase": "keep your word", "translation": "держать слово", "example": "Always keep your word in business.", "category": "work", "level": "B2" },
-  { "id": 37, "phrase": "set yourself a goal", "translation": "ставить себе цель", "example": "Set yourself a realistic goal for the year.", "category": "work", "level": "A2" },
-  { "id": 38, "phrase": "take on new responsibilities", "translation": "брать на себя новые обязанности", "example": "Managers take on more responsibilities as they grow.", "category": "work", "level": "B1" },
-  { "id": 39, "phrase": "make a complaint", "translation": "подать жалобу", "example": "She made a formal complaint to HR.", "category": "work", "level": "B1" },
-  { "id": 40, "phrase": "keep your options open", "translation": "держать варианты открытыми", "example": "Keep your options open before you sign the contract.", "category": "work", "level": "C1" },
-  { "id": 41, "phrase": "take on a new role", "translation": "взять на себя новую роль", "example": "He took on a new role in the marketing department.", "category": "work", "level": "B2" },
-  { "id": 42, "phrase": "make a difference", "translation": "иметь значение, влиять", "example": "Volunteering can make a real difference.", "category": "work", "level": "B1" },
-  { "id": 43, "phrase": "take a risk", "translation": "пойти на риск", "example": "The company decided to take a big risk.", "category": "work", "level": "A2" },
-  { "id": 44, "phrase": "keep up appearances", "translation": "поддерживать видимость", "example": "He keeps up appearances even when things go wrong.", "category": "work", "level": "C1" },
-  { "id": 45, "phrase": "make a list", "translation": "составить список", "example": "Make a list of everything you need for the trip.", "category": "work", "level": "A2" },
-
-  { "id": 46, "phrase": "feel happy", "translation": "чувствовать себя счастливым", "example": "I feel happy when I spend time with family.", "category": "emotions", "level": "A2" },
-  { "id": 47, "phrase": "be angry about something", "translation": "злиться из-за чего-то", "example": "She was angry about the late train.", "category": "emotions", "level": "A2" },
-  { "id": 48, "phrase": "get excited about something", "translation": "радоваться чему-то, волноваться", "example": "The kids got excited about the trip to the sea.", "category": "emotions", "level": "A2" },
-  { "id": 49, "phrase": "feel proud of something", "translation": "гордиться чем-то", "example": "He felt proud of his son's achievement.", "category": "emotions", "level": "B1" },
-  { "id": 50, "phrase": "be disappointed with something", "translation": "быть разочарованным в чём-то", "example": "We were disappointed with the results.", "category": "emotions", "level": "A2" },
-  { "id": 51, "phrase": "lose your temper", "translation": "терять самообладание", "example": "Don't lose your temper when you're tired.", "category": "emotions", "level": "B1" },
-  { "id": 52, "phrase": "feel nervous about something", "translation": "нервничать из-за чего-то", "example": "She felt nervous about the interview.", "category": "emotions", "level": "A2" },
-  { "id": 53, "phrase": "be worried about something", "translation": "беспокоиться о чём-то", "example": "Parents are always worried about their children.", "category": "emotions", "level": "A2" },
-  { "id": 54, "phrase": "take it easy", "translation": "не переживать, расслабиться", "example": "Don't worry, just take it easy.", "category": "emotions", "level": "B1" },
-  { "id": 55, "phrase": "feel relieved", "translation": "чувствовать облегчение", "example": "I felt relieved when the exam was over.", "category": "emotions", "level": "B1" },
-  { "id": 56, "phrase": "be upset with someone", "translation": "обижаться на кого-то", "example": "She was upset with her friend's comment.", "category": "emotions", "level": "A2" },
-  { "id": 57, "phrase": "get frustrated", "translation": "раздражаться, терять терпение", "example": "He got frustrated after waiting an hour.", "category": "emotions", "level": "B1" },
-  { "id": 58, "phrase": "feel grateful for something", "translation": "быть благодарным за что-то", "example": "I'm grateful for all your help.", "category": "emotions", "level": "B1" },
-  { "id": 59, "phrase": "be embarrassed about something", "translation": "стыдиться чего-то", "example": "He was embarrassed about his mistake.", "category": "emotions", "level": "A2" },
-  { "id": 60, "phrase": "lose confidence in yourself", "translation": "потерять уверенность в себе", "example": "She lost confidence after the failure.", "category": "emotions", "level": "B2" },
-  { "id": 61, "phrase": "feel at ease", "translation": "чувствовать себя комфортно", "example": "Guests felt at ease in the new office.", "category": "emotions", "level": "B1" },
-  { "id": 62, "phrase": "be over the moon", "translation": "быть на седьмом небе от счастья", "example": "She was over the moon when she passed the exam.", "category": "emotions", "level": "C1" },
-  { "id": 63, "phrase": "hit the roof", "translation": "взрываться, сильно злиться", "example": "My boss will hit the roof if we're late again.", "category": "emotions", "level": "C1" },
-  { "id": 64, "phrase": "feel let down", "translation": "чувствовать себя разочарованным, преданным", "example": "The team felt let down by the manager's decision.", "category": "emotions", "level": "B2" },
-  { "id": 65, "phrase": "get on someone's nerves", "translation": "раздражать кого-то", "example": "That noise is getting on my nerves.", "category": "emotions", "level": "B1" },
-  { "id": 66, "phrase": "feel sorry for someone", "translation": "сочувствовать кому-то", "example": "I felt sorry for the stray cat in the rain.", "category": "emotions", "level": "A2" },
-  { "id": 67, "phrase": "be fed up with something", "translation": "надоесть что-то, быть в тоске от чего-то", "example": "I'm fed up with these endless meetings.", "category": "emotions", "level": "B1" },
-  { "id": 68, "phrase": "take it personally", "translation": "принимать близко к сердцу", "example": "Don't take my criticism personally.", "category": "emotions", "level": "B2" },
-  { "id": 69, "phrase": "feel blue", "translation": "чувствовать себя грустным", "example": "She felt blue after the argument.", "category": "emotions", "level": "B1" },
-  { "id": 70, "phrase": "be on cloud nine", "translation": "быть на седьмом небе (от счастья)", "example": "He was on cloud nine after winning the prize.", "category": "emotions", "level": "C1" },
-
-  { "id": 71, "phrase": "heavy rain", "translation": "сильный дождь", "example": "We had heavy rain all night.", "category": "weather", "level": "A2" },
-  { "id": 72, "phrase": "light snow", "translation": "лёгкий снег", "example": "There was light snow in the morning.", "category": "weather", "level": "A2" },
-  { "id": 73, "phrase": "strong wind", "translation": "сильный ветер", "example": "The strong wind broke several trees.", "category": "weather", "level": "B1" },
-  { "id": 74, "phrase": "a hot day", "translation": "жаркий день", "example": "It's been a hot day today.", "category": "weather", "level": "A2" },
-  { "id": 75, "phrase": "a cold night", "translation": "холодная ночь", "example": "We had a cold night last week.", "category": "weather", "level": "A2" },
-  { "id": 76, "phrase": "take an umbrella", "translation": "взять зонт", "example": "Take an umbrella, it might rain.", "category": "weather", "level": "A2" },
-  { "id": 77, "phrase": "forecast rain", "translation": "предсказать дождь", "example": "The weatherman forecasts rain for tomorrow.", "category": "weather", "level": "B1" },
-  { "id": 78, "phrase": "clear skies", "translation": "ясное небо", "example": "We enjoyed clear skies during the weekend.", "category": "weather", "level": "B1" },
-  { "id": 79, "phrase": "a change in the weather", "translation": "смена погоды", "example": "There was a sudden change in the weather.", "category": "weather", "level": "A2" },
-  { "id": 80, "phrase": "heavy fog", "translation": "густой туман", "example": "The flight was delayed because of heavy fog.", "category": "weather", "level": "B1" },
-  { "id": 81, "phrase": "a sunny day", "translation": "солнечный день", "example": "It was a sunny day for a picnic.", "category": "weather", "level": "A2" },
-  { "id": 82, "phrase": "a stormy night", "translation": "штормовая ночь", "example": "We had a stormy night with thunder and lightning.", "category": "weather", "level": "B1" },
-  { "id": 83, "phrase": "take shelter from the rain", "translation": "укрыться от дождя", "example": "We took shelter from the rain in a café.", "category": "weather", "level": "B1" },
-  { "id": 84, "phrase": "make the most of the sunshine", "translation": "воспользоваться солнцем", "example": "Let's make the most of the sunshine this afternoon.", "category": "weather", "level": "B2" },
-  { "id": 85, "phrase": "a drop in temperature", "translation": "падение температуры", "example": "There was a sudden drop in temperature overnight.", "category": "weather", "level": "B1" },
-  { "id": 86, "phrase": "a burst of wind", "translation": "порыв ветра", "example": "A sudden burst of wind knocked over the tent.", "category": "weather", "level": "B2" },
-  { "id": 87, "phrase": "a spell of bad weather", "translation": "полоса плохой погоды", "example": "We had a long spell of bad weather in spring.", "category": "weather", "level": "C1" },
-
-  { "id": 88, "phrase": "make a profit", "translation": "получать прибыль", "example": "The company made a record profit last year.", "category": "business", "level": "A2" },
-  { "id": 89, "phrase": "lose money", "translation": "потерять деньги", "example": "They lost money on the failed project.", "category": "business", "level": "A2" },
-  { "id": 90, "phrase": "do business with someone", "translation": "вести дела с кем-то", "example": "We've done business with them for years.", "category": "business", "level": "A2" },
-  { "id": 91, "phrase": "raise funds", "translation": "привлекать средства", "example": "The startup raised funds from investors.", "category": "business", "level": "B1" },
-  { "id": 92, "phrase": "cut costs", "translation": "сократить расходы", "example": "The firm cut costs to survive the crisis.", "category": "business", "level": "B1" },
-  { "id": 93, "phrase": "make an investment", "translation": "совершить инвестиции", "example": "They made a big investment in new equipment.", "category": "business", "level": "A2" },
-  { "id": 94, "phrase": "break even", "translation": "выйти на безубыточность", "example": "We finally broke even after two years.", "category": "business", "level": "C1" },
-  { "id": 95, "phrase": "boost sales", "translation": "увеличить продажи", "example": "The campaign boosted sales by 30%.", "category": "business", "level": "B1" },
-  { "id": 96, "phrase": "launch a product", "translation": "запустить продукт", "example": "They launched the new product in spring.", "category": "business", "level": "A2" },
-  { "id": 97, "phrase": "expand into new markets", "translation": "выйти на новые рынки", "example": "The company plans to expand into new markets in Asia.", "category": "business", "level": "B1" },
-  { "id": 98, "phrase": "meet demand", "translation": "удовлетворять спрос", "example": "We can't keep up with rising demand.", "category": "business", "level": "B1" },
-  { "id": 99, "phrase": "build a brand", "translation": "строить бренд", "example": "Startups spend years building their brand.", "category": "business", "level": "B1" },
-  { "id": 100, "phrase": "negotiate a deal", "translation": "вести переговоры о сделке", "example": "They negotiated the deal for weeks.", "category": "business", "level": "A2" },
-  { "id": 101, "phrase": "close a deal", "translation": "заключить сделку", "example": "We closed the deal on Friday.", "category": "business", "level": "A2" },
-  { "id": 102, "phrase": "make a bid", "translation": "сделать предложение о цене", "example": "The company made a high bid for the property.", "category": "business", "level": "B2" },
-  { "id": 103, "phrase": "keep prices low", "translation": "удерживать цены низкими", "example": "The store keeps its prices very low.", "category": "business", "level": "A2" },
-  { "id": 104, "phrase": "break into a market", "translation": "выйти на рынок", "example": "They broke into the Asian market last year.", "category": "business", "level": "C1" },
-  { "id": 105, "phrase": "suffer a loss", "translation": "понести убытки", "example": "The firm suffered a big loss in 2024.", "category": "business", "level": "B1" },
-  { "id": 106, "phrase": "make an offer", "translation": "сделать предложение (о сделке)", "example": "They made us a generous offer.", "category": "business", "level": "A2" },
-  { "id": 107, "phrase": "keep your customers", "translation": "удерживать клиентов", "example": "Good service helps you keep your customers.", "category": "business", "level": "B1" },
-  { "id": 108, "phrase": "set up a franchise", "translation": "открыть франшизу", "example": "They set up a franchise in three cities.", "category": "business", "level": "C1" },
-  { "id": 109, "phrase": "carry out a merger", "translation": "провести слияние", "example": "The two companies carried out a merger last year.", "category": "business", "level": "C1" },
-  { "id": 110, "phrase": "take on a partner", "translation": "взять партнёра в дело", "example": "They took on a new partner in the firm.", "category": "business", "level": "B2" },
-
-  { "id": 111, "phrase": "do the shopping", "translation": "делать покупки", "example": "I do the shopping on Saturdays.", "category": "home", "level": "A2" },
-  { "id": 112, "phrase": "cook dinner", "translation": "готовить ужин", "example": "She cooks dinner every evening.", "category": "home", "level": "A2" },
-  { "id": 113, "phrase": "clean the house", "translation": "убирать дом", "example": "We clean the house on Sundays.", "category": "home", "level": "A2" },
-  { "id": 114, "phrase": "make the bed", "translation": "застелить постель", "example": "He makes his bed before leaving for work.", "category": "home", "level": "A2" },
-  { "id": 115, "phrase": "take out the trash", "translation": "вынести мусор", "example": "Don't forget to take out the trash tonight.", "category": "home", "level": "A2" },
-  { "id": 116, "phrase": "do the laundry", "translation": "стирать бельё", "example": "I do the laundry once a week.", "category": "home", "level": "B1" },
-  { "id": 117, "phrase": "run out of something", "translation": "закончиться что-то", "example": "If you run out of milk, buy more.", "category": "home", "level": "A2" },
-  { "id": 118, "phrase": "make breakfast", "translation": "готовить завтрак", "example": "He makes breakfast for the kids.", "category": "home", "level": "A2" },
-  { "id": 119, "phrase": "keep the house tidy", "translation": "поддерживать порядок в доме", "example": "She keeps the house very tidy.", "category": "home", "level": "B1" },
-  { "id": 120, "phrase": "do the dishes", "translation": "мыть посуду", "example": "I'll do the dishes after dinner.", "category": "home", "level": "A2" },
-  { "id": 121, "phrase": "make a mess", "translation": "навести беспорядок", "example": "The kids made a mess in the kitchen.", "category": "home", "level": "A2" },
-  { "id": 122, "phrase": "keep up with housework", "translation": "успевать за домашними делами", "example": "It's hard to keep up with all the housework.", "category": "home", "level": "B1" },
-  { "id": 123, "phrase": "put things away", "translation": "убирать вещи на место", "example": "Please put your shoes away after you come home.", "category": "home", "level": "A2" },
-  { "id": 124, "phrase": "fix a leak", "translation": "устранить протечку", "example": "The plumber fixed the leak quickly.", "category": "home", "level": "B1" },
-  { "id": 125, "phrase": "keep the room warm", "translation": "поддерживать тепло в комнате", "example": "We keep the room warm all night in winter.", "category": "home", "level": "B1" },
-  { "id": 126, "phrase": "make a cup of tea", "translation": "заварить чашку чая", "example": "I'll make you a cup of tea.", "category": "home", "level": "A2" },
-  { "id": 127, "phrase": "look after the children", "translation": "присматривать за детьми", "example": "She looks after the children while I work.", "category": "home", "level": "B1" },
-  { "id": 128, "phrase": "keep a pet", "translation": "держать питомца", "example": "They keep a small pet in the flat.", "category": "home", "level": "A2" },
-  { "id": 129, "phrase": "put up decorations", "translation": "развесить украшения", "example": "We put up Christmas decorations last week.", "category": "home", "level": "B1" },
-  { "id": 130, "phrase": "do some ironing", "translation": "гладить бельё", "example": "I do some ironing on Sunday mornings.", "category": "home", "level": "B1" },
-
-  { "id": 131, "phrase": "catch a cold", "translation": "подхватить простуду", "example": "I caught a cold last week.", "category": "health", "level": "A2" },
-  { "id": 132, "phrase": "have a headache", "translation": "иметь головную боль", "example": "She has a terrible headache today.", "category": "health", "level": "A2" },
-  { "id": 133, "phrase": "take medicine", "translation": "принимать лекарство", "example": "Take the medicine after eating.", "category": "health", "level": "A2" },
-  { "id": 134, "phrase": "lose weight", "translation": "худеть, терять вес", "example": "He lost weight during the summer.", "category": "health", "level": "A2" },
-  { "id": 135, "phrase": "gain weight", "translation": "набирать вес", "example": "I gained weight over the holidays.", "category": "health", "level": "A2" },
-  { "id": 136, "phrase": "keep fit", "translation": "поддерживать форму", "example": "She keeps fit by swimming every day.", "category": "health", "level": "B1" },
-  { "id": 137, "phrase": "take care of your health", "translation": "заботиться о здоровье", "example": "You should take better care of your health.", "category": "health", "level": "A2" },
-  { "id": 138, "phrase": "make an appointment", "translation": "записаться на приём", "example": "I need to make an appointment with the doctor.", "category": "health", "level": "B1" },
-  { "id": 139, "phrase": "have a check-up", "translation": "пройти обследование", "example": "He has a medical check-up every year.", "category": "health", "level": "B1" },
-  { "id": 140, "phrase": "feel better", "translation": "чувствовать себя лучше", "example": "You should feel better by tomorrow.", "category": "health", "level": "A2" },
-  { "id": 141, "phrase": "get over an illness", "translation": "выздороветь (справиться с болезнью)", "example": "She got over the illness in a week.", "category": "health", "level": "B1" },
-  { "id": 142, "phrase": "build up strength", "translation": "набирать силу", "example": "He built up his strength during training.", "category": "health", "level": "B2" },
-  { "id": 143, "phrase": "keep your weight under control", "translation": "держать вес под контролем", "example": "She keeps her weight under control with regular exercise.", "category": "health", "level": "B2" },
-  { "id": 144, "phrase": "have a high fever", "translation": "иметь высокую температуру", "example": "The child had a high fever all night.", "category": "health", "level": "A2" },
-  { "id": 145, "phrase": "feel run down", "translation": "чувствовать себя разбитым, истощённым", "example": "I've been feeling run down since the flu.", "category": "health", "level": "B2" },
-  { "id": 146, "phrase": "keep your energy up", "translation": "поддерживать уровень энергии", "example": "Sleep and food help you keep your energy up.", "category": "health", "level": "B1" },
-  { "id": 147, "phrase": "have a sore throat", "translation": "иметь больное горло", "example": "I've had a sore throat for three days.", "category": "health", "level": "A2" },
-  { "id": 148, "phrase": "monitor your blood pressure", "translation": "следить за давлением", "example": "You should monitor your blood pressure regularly.", "category": "health", "level": "B2" },
-
-  { "id": 149, "phrase": "book a flight", "translation": "забронировать рейс", "example": "We booked the flight for next week.", "category": "travel", "level": "A2" },
-  { "id": 150, "phrase": "pack your bags", "translation": "собрать чемоданы", "example": "Don't forget to pack your bags tonight.", "category": "travel", "level": "A2" },
-  { "id": 151, "phrase": "catch a train", "translation": "успеть на поезд", "example": "We caught the last train home.", "category": "travel", "level": "A2" },
-  { "id": 152, "phrase": "miss the connection", "translation": "опоздать на пересадку", "example": "We missed our connection in Paris.", "category": "travel", "level": "B1" },
-  { "id": 153, "phrase": "take a trip", "translation": "совершить поездку", "example": "They took a long trip across Europe.", "category": "travel", "level": "A2" },
-  { "id": 154, "phrase": "plan a holiday", "translation": "спланировать отпуск", "example": "We're planning a holiday in Spain.", "category": "travel", "level": "A2" },
-  { "id": 155, "phrase": "check into a hotel", "translation": "заселиться в отель", "example": "We checked into the hotel at noon.", "category": "travel", "level": "B1" },
-  { "id": 156, "phrase": "check out", "translation": "выписаться из отеля", "example": "Please check out of the hotel before noon.", "category": "travel", "level": "B1" },
-  { "id": 157, "phrase": "get lost", "translation": "заблудиться", "example": "We got lost in the old town.", "category": "travel", "level": "A2" },
-  { "id": 158, "phrase": "take off", "translation": "взлететь (самолёт)", "example": "The plane took off at six o'clock.", "category": "travel", "level": "A2" },
-  { "id": 159, "phrase": "hit the road", "translation": "отправиться в путь", "example": "We'll hit the road early tomorrow morning.", "category": "travel", "level": "B2" },
-  { "id": 160, "phrase": "make a short stop", "translation": "сделать короткую остановку", "example": "We made a short stop in Vienna.", "category": "travel", "level": "B1" },
-  { "id": 161, "phrase": "take a detour", "translation": "свернуть с маршрута (сделать крюк)", "example": "We took a detour to visit the castle.", "category": "travel", "level": "B2" },
-  { "id": 162, "phrase": "take a tour", "translation": "совершить экскурсию", "example": "We took a guided tour of the museum.", "category": "travel", "level": "A2" },
-  { "id": 163, "phrase": "make your way through", "translation": "пробираться сквозь", "example": "We made our way slowly through the crowd.", "category": "travel", "level": "B2" },
-  { "id": 164, "phrase": "make a long journey", "translation": "совершить долгий путь", "example": "They made a long journey to Scotland.", "category": "travel", "level": "B1" },
-  { "id": 165, "phrase": "set off on a journey", "translation": "отправиться в путешествие", "example": "They set off on their journey at dawn.", "category": "travel", "level": "B2" },
-
-  { "id": 166, "phrase": "pass an exam", "translation": "сдать экзамен", "example": "She passed the exam with flying colours.", "category": "education", "level": "A2" },
-  { "id": 167, "phrase": "fail a test", "translation": "провалить, не сдать тест", "example": "He failed the test on his first attempt.", "category": "education", "level": "A2" },
-  { "id": 168, "phrase": "take a course", "translation": "пройти курс", "example": "I'm taking a course in English online.", "category": "education", "level": "A2" },
-  { "id": 169, "phrase": "do homework", "translation": "делать домашнее задание", "example": "The students do their homework after school.", "category": "education", "level": "A2" },
-  { "id": 170, "phrase": "get a degree", "translation": "получить диплом", "example": "She got her degree last June.", "category": "education", "level": "B1" },
-  { "id": 171, "phrase": "write an essay", "translation": "написать эссе", "example": "We have to write an essay this week.", "category": "education", "level": "A2" },
-  { "id": 172, "phrase": "take notes", "translation": "делать заметки", "example": "Take notes during the lecture.", "category": "education", "level": "A2" },
-  { "id": 173, "phrase": "make an effort", "translation": "приложить усилия", "example": "You need to make more effort in class.", "category": "education", "level": "B1" },
-  { "id": 174, "phrase": "turn in an assignment", "translation": "сдать работу", "example": "Turn in your assignment by Friday.", "category": "education", "level": "B2" },
-  { "id": 175, "phrase": "get good grades", "translation": "получать хорошие оценки", "example": "She gets good grades at school.", "category": "education", "level": "A2" },
-  { "id": 176, "phrase": "keep up with the lessons", "translation": "успевать за уроками", "example": "It's hard to keep up with all the lessons.", "category": "education", "level": "B1" },
-  { "id": 177, "phrase": "take an exam", "translation": "сдавать экзамен", "example": "We take a final exam at the end of the year.", "category": "education", "level": "A2" },
-  { "id": 178, "phrase": "win a scholarship", "translation": "получить стипендию", "example": "She won a full scholarship for university.", "category": "education", "level": "B2" },
-  { "id": 179, "phrase": "do a project", "translation": "выполнить проектную работу", "example": "The students did a group project on history.", "category": "education", "level": "A2" },
-  { "id": 180, "phrase": "keep yourself up to date", "translation": "держать себя в курсе событий", "example": "Read the news to keep yourself up to date.", "category": "education", "level": "B2" },
-  { "id": 181, "phrase": "get a certificate", "translation": "получить сертификат", "example": "He got a certificate after the course.", "category": "education", "level": "B1" },
-  { "id": 182, "phrase": "catch up on your studies", "translation": "наверстать упущенное в учёбе", "example": "She caught up on her studies over the summer.", "category": "education", "level": "B2" },
-
-  { "id": 183, "phrase": "cook a meal", "translation": "приготовить блюдо", "example": "He cooked a delicious meal for the guests.", "category": "food", "level": "A2" },
-  { "id": 184, "phrase": "make a cake", "translation": "испечь торт", "example": "She made a chocolate cake for her birthday.", "category": "food", "level": "A2" },
-  { "id": 185, "phrase": "have breakfast", "translation": "завтракать", "example": "We had breakfast at eight o'clock.", "category": "food", "level": "A2" },
-  { "id": 186, "phrase": "eat out", "translation": "есть в ресторане, вне дома", "example": "They eat out on Fridays.", "category": "food", "level": "B1" },
-  { "id": 187, "phrase": "make a salad", "translation": "приготовить салат", "example": "I'll make a fresh salad for dinner.", "category": "food", "level": "A2" },
-  { "id": 188, "phrase": "book a table", "translation": "забронировать столик", "example": "We booked a table for eight people.", "category": "food", "level": "A2" },
-  { "id": 189, "phrase": "have a snack", "translation": "перекусить", "example": "We had a quick snack before the meeting.", "category": "food", "level": "A2" },
-  { "id": 190, "phrase": "bake bread", "translation": "испечь хлеб", "example": "She bakes fresh bread every morning.", "category": "food", "level": "B1" },
-  { "id": 191, "phrase": "make soup", "translation": "приготовить суп", "example": "I'll make a vegetable soup for dinner.", "category": "food", "level": "A2" },
-  { "id": 192, "phrase": "keep a healthy diet", "translation": "придерживаться здорового питания", "example": "It's important to keep a healthy diet.", "category": "food", "level": "B1" },
-  { "id": 193, "phrase": "have dinner", "translation": "ужинать", "example": "We had dinner at the restaurant last night.", "category": "food", "level": "A2" },
-  { "id": 194, "phrase": "make a sandwich", "translation": "сделать бутерброд", "example": "I'll make you a quick sandwich.", "category": "food", "level": "A2" },
-  { "id": 195, "phrase": "order take-away", "translation": "заказать еду с собой", "example": "We ordered take-away for the office.", "category": "food", "level": "B1" },
-
-  { "id": 196, "phrase": "have a conversation", "translation": "вести разговор", "example": "We had a long conversation about the future.", "category": "communication", "level": "A2" },
-  { "id": 197, "phrase": "make a phone call", "translation": "сделать телефонный звонок", "example": "I'll make a phone call later today.", "category": "communication", "level": "A2" },
-  { "id": 198, "phrase": "keep in touch", "translation": "поддерживать связь", "example": "Let's keep in touch after you move.", "category": "communication", "level": "A2" },
-  { "id": 199, "phrase": "break the ice", "translation": "снять напряжение, наладить контакт", "example": "He told a joke to break the ice.", "category": "communication", "level": "B1" },
-  { "id": 200, "phrase": "get your point across", "translation": "донести свою мысль", "example": "He struggled to get his point across.", "category": "communication", "level": "C1" },
-  { "id": 201, "phrase": "make yourself clear", "translation": "быть понятным, чётко выражаться", "example": "Please make yourself clear when you give instructions.", "category": "communication", "level": "A2" },
-  { "id": 202, "phrase": "take part in a discussion", "translation": "участвовать в обсуждении", "example": "Everyone took part in the discussion.", "category": "communication", "level": "B1" },
-  { "id": 203, "phrase": "have a chat", "translation": "поболтать, поговорить", "example": "We had a quick chat over coffee.", "category": "communication", "level": "A2" },
-  { "id": 204, "phrase": "make small talk", "translation": "вести светскую беседу", "example": "He's good at making small talk with strangers.", "category": "communication", "level": "B1" },
-  { "id": 205, "phrase": "take sides", "translation": "занимать чью-то сторону", "example": "Don't take sides in the argument.", "category": "communication", "level": "B2" },
-  { "id": 206, "phrase": "keep your voice down", "translation": "говорить тише, понизить голос", "example": "Please keep your voice down in the library.", "category": "communication", "level": "A2" },
-  { "id": 207, "phrase": "make a remark", "translation": "сделать замечание", "example": "She made a funny remark about the weather.", "category": "communication", "level": "B1" },
-  { "id": 208, "phrase": "have a word", "translation": "поговорить (по серьёзному поводу)", "example": "The manager wants to have a word with you.", "category": "communication", "level": "B2" }
+  {
+    "id": 1,
+    "phrase": "make a decision",
+    "translation": "принять решение",
+    "example": "We need to make a final decision today.",
+    "category": "work",
+    "unit": 1
+  },
+  {
+    "id": 2,
+    "phrase": "take responsibility",
+    "translation": "нести ответственность",
+    "example": "She takes full responsibility for her team's results.",
+    "category": "work",
+    "unit": 2
+  },
+  {
+    "id": 3,
+    "phrase": "meet a deadline",
+    "translation": "уложиться в срок",
+    "example": "The team managed to meet the deadline.",
+    "category": "work",
+    "unit": 3
+  },
+  {
+    "id": 4,
+    "phrase": "do your job",
+    "translation": "делать свою работу",
+    "example": "He always does his job properly.",
+    "category": "work",
+    "unit": 1
+  },
+  {
+    "id": 5,
+    "phrase": "get a promotion",
+    "translation": "получить повышение",
+    "example": "After two years she got a promotion.",
+    "category": "work",
+    "unit": 2
+  },
+  {
+    "id": 6,
+    "phrase": "lose your job",
+    "translation": "потерять работу",
+    "example": "He lost his job last spring.",
+    "category": "work",
+    "unit": 3
+  },
+  {
+    "id": 7,
+    "phrase": "apply for a job",
+    "translation": "подать заявку на вакансию",
+    "example": "I applied for a job at a big company.",
+    "category": "work",
+    "unit": 1
+  },
+  {
+    "id": 8,
+    "phrase": "do overtime",
+    "translation": "работать сверхурочно",
+    "example": "He often does overtime on Fridays.",
+    "category": "work",
+    "unit": 2
+  },
+  {
+    "id": 9,
+    "phrase": "take a break",
+    "translation": "сделать перерыв",
+    "example": "Let's take a short break before continuing.",
+    "category": "work",
+    "unit": 3
+  },
+  {
+    "id": 10,
+    "phrase": "run a business",
+    "translation": "вести бизнес",
+    "example": "They run a small family business.",
+    "category": "work",
+    "unit": 1
+  },
+  {
+    "id": 11,
+    "phrase": "set up a company",
+    "translation": "основать компанию",
+    "example": "She set up her own company in 2015.",
+    "category": "work",
+    "unit": 2
+  },
+  {
+    "id": 12,
+    "phrase": "draw up a contract",
+    "translation": "составить договор",
+    "example": "The lawyers drew up the contract last week.",
+    "category": "work",
+    "unit": 3
+  },
+  {
+    "id": 13,
+    "phrase": "carry out research",
+    "translation": "проводить исследование",
+    "example": "Scientists carried out research on new materials.",
+    "category": "work",
+    "unit": 1
+  },
+  {
+    "id": 14,
+    "phrase": "come to an agreement",
+    "translation": "прийти к соглашению",
+    "example": "Both sides came to an agreement quickly.",
+    "category": "work",
+    "unit": 2
+  },
+  {
+    "id": 15,
+    "phrase": "take on a project",
+    "translation": "взяться за проект",
+    "example": "The team took on a difficult project.",
+    "category": "work",
+    "unit": 3
+  },
+  {
+    "id": 16,
+    "phrase": "keep up with the work",
+    "translation": "успевать за работой",
+    "example": "It's hard to keep up with all the work at this job.",
+    "category": "work",
+    "unit": 1
+  },
+  {
+    "id": 17,
+    "phrase": "make progress",
+    "translation": "добиваться прогресса",
+    "example": "We're making good progress on the new product.",
+    "category": "work",
+    "unit": 2
+  },
+  {
+    "id": 18,
+    "phrase": "take action",
+    "translation": "предпринять меры",
+    "example": "The company must take action now.",
+    "category": "work",
+    "unit": 3
+  },
+  {
+    "id": 19,
+    "phrase": "raise an issue",
+    "translation": "поднять вопрос",
+    "example": "He raised an important issue at the meeting.",
+    "category": "work",
+    "unit": 1
+  },
+  {
+    "id": 20,
+    "phrase": "put forward a proposal",
+    "translation": "выдвинуть предложение",
+    "example": "She put forward a new proposal.",
+    "category": "work",
+    "unit": 2
+  },
+  {
+    "id": 21,
+    "phrase": "come up with an idea",
+    "translation": "придумать идею",
+    "example": "He came up with a brilliant idea.",
+    "category": "work",
+    "unit": 3
+  },
+  {
+    "id": 22,
+    "phrase": "work out a solution",
+    "translation": "найти решение",
+    "example": "They worked out a solution to the problem.",
+    "category": "work",
+    "unit": 1
+  },
+  {
+    "id": 23,
+    "phrase": "take over the company",
+    "translation": "взять на себя управление компанией",
+    "example": "The new owner took over the company.",
+    "category": "work",
+    "unit": 2
+  },
+  {
+    "id": 24,
+    "phrase": "keep your cool",
+    "translation": "сохранять спокойствие",
+    "example": "You need to keep your cool under pressure.",
+    "category": "work",
+    "unit": 3
+  },
+  {
+    "id": 25,
+    "phrase": "get along with colleagues",
+    "translation": "ладить с коллегами",
+    "example": "It's important to get along with your colleagues.",
+    "category": "work",
+    "unit": 1
+  },
+  {
+    "id": 26,
+    "phrase": "make a presentation",
+    "translation": "сделать презентацию",
+    "example": "I have to make a presentation tomorrow.",
+    "category": "work",
+    "unit": 2
+  },
+  {
+    "id": 27,
+    "phrase": "do the paperwork",
+    "translation": "заниматься бумажной работой",
+    "example": "He spends hours doing the paperwork.",
+    "category": "work",
+    "unit": 3
+  },
+  {
+    "id": 28,
+    "phrase": "keep an eye on something",
+    "translation": "следить за чем-то",
+    "example": "The manager keeps an eye on the budget.",
+    "category": "work",
+    "unit": 1
+  },
+  {
+    "id": 29,
+    "phrase": "take the initiative",
+    "translation": "проявить инициативу",
+    "example": "She took the initiative and started the project.",
+    "category": "work",
+    "unit": 2
+  },
+  {
+    "id": 30,
+    "phrase": "make a point",
+    "translation": "высказать мнение",
+    "example": "He made a good point during the discussion.",
+    "category": "work",
+    "unit": 3
+  },
+  {
+    "id": 31,
+    "phrase": "make a mistake",
+    "translation": "допустить ошибку",
+    "example": "I made a small mistake on the test.",
+    "category": "work",
+    "unit": 1
+  },
+  {
+    "id": 32,
+    "phrase": "take the blame",
+    "translation": "брать вину на себя",
+    "example": "No one wanted to take the blame for the failure.",
+    "category": "work",
+    "unit": 2
+  },
+  {
+    "id": 33,
+    "phrase": "work part-time",
+    "translation": "работать неполный день",
+    "example": "She works part-time while studying.",
+    "category": "work",
+    "unit": 3
+  },
+  {
+    "id": 34,
+    "phrase": "get a raise",
+    "translation": "получить прибавку к зарплате",
+    "example": "He got a small raise last month.",
+    "category": "work",
+    "unit": 1
+  },
+  {
+    "id": 35,
+    "phrase": "make ends meet",
+    "translation": "сводить концы с концами",
+    "example": "It's hard to make ends meet on this salary.",
+    "category": "work",
+    "unit": 2
+  },
+  {
+    "id": 36,
+    "phrase": "keep your word",
+    "translation": "держать слово",
+    "example": "Always keep your word in business.",
+    "category": "work",
+    "unit": 3
+  },
+  {
+    "id": 37,
+    "phrase": "set yourself a goal",
+    "translation": "ставить себе цель",
+    "example": "Set yourself a realistic goal for the year.",
+    "category": "work",
+    "unit": 1
+  },
+  {
+    "id": 38,
+    "phrase": "take on new responsibilities",
+    "translation": "брать на себя новые обязанности",
+    "example": "Managers take on more responsibilities as they grow.",
+    "category": "work",
+    "unit": 2
+  },
+  {
+    "id": 39,
+    "phrase": "make a complaint",
+    "translation": "подать жалобу",
+    "example": "She made a formal complaint to HR.",
+    "category": "work",
+    "unit": 3
+  },
+  {
+    "id": 40,
+    "phrase": "keep your options open",
+    "translation": "держать варианты открытыми",
+    "example": "Keep your options open before you sign the contract.",
+    "category": "work",
+    "unit": 1
+  },
+  {
+    "id": 41,
+    "phrase": "take on a new role",
+    "translation": "взять на себя новую роль",
+    "example": "He took on a new role in the marketing department.",
+    "category": "work",
+    "unit": 2
+  },
+  {
+    "id": 42,
+    "phrase": "make a difference",
+    "translation": "иметь значение, влиять",
+    "example": "Volunteering can make a real difference.",
+    "category": "work",
+    "unit": 3
+  },
+  {
+    "id": 43,
+    "phrase": "take a risk",
+    "translation": "пойти на риск",
+    "example": "The company decided to take a big risk.",
+    "category": "work",
+    "unit": 1
+  },
+  {
+    "id": 44,
+    "phrase": "keep up appearances",
+    "translation": "поддерживать видимость",
+    "example": "He keeps up appearances even when things go wrong.",
+    "category": "work",
+    "unit": 2
+  },
+  {
+    "id": 45,
+    "phrase": "make a list",
+    "translation": "составить список",
+    "example": "Make a list of everything you need for the trip.",
+    "category": "work",
+    "unit": 3
+  },
+  {
+    "id": 46,
+    "phrase": "feel happy",
+    "translation": "чувствовать себя счастливым",
+    "example": "I feel happy when I spend time with family.",
+    "category": "emotions",
+    "unit": 1
+  },
+  {
+    "id": 47,
+    "phrase": "be angry about something",
+    "translation": "злиться из-за чего-то",
+    "example": "She was angry about the late train.",
+    "category": "emotions",
+    "unit": 2
+  },
+  {
+    "id": 48,
+    "phrase": "get excited about something",
+    "translation": "радоваться чему-то, волноваться",
+    "example": "The kids got excited about the trip to the sea.",
+    "category": "emotions",
+    "unit": 3
+  },
+  {
+    "id": 49,
+    "phrase": "feel proud of something",
+    "translation": "гордиться чем-то",
+    "example": "He felt proud of his son's achievement.",
+    "category": "emotions",
+    "unit": 1
+  },
+  {
+    "id": 50,
+    "phrase": "be disappointed with something",
+    "translation": "быть разочарованным в чём-то",
+    "example": "We were disappointed with the results.",
+    "category": "emotions",
+    "unit": 2
+  },
+  {
+    "id": 51,
+    "phrase": "lose your temper",
+    "translation": "терять самообладание",
+    "example": "Don't lose your temper when you're tired.",
+    "category": "emotions",
+    "unit": 3
+  },
+  {
+    "id": 52,
+    "phrase": "feel nervous about something",
+    "translation": "нервничать из-за чего-то",
+    "example": "She felt nervous about the interview.",
+    "category": "emotions",
+    "unit": 1
+  },
+  {
+    "id": 53,
+    "phrase": "be worried about something",
+    "translation": "беспокоиться о чём-то",
+    "example": "Parents are always worried about their children.",
+    "category": "emotions",
+    "unit": 2
+  },
+  {
+    "id": 54,
+    "phrase": "take it easy",
+    "translation": "не переживать, расслабиться",
+    "example": "Don't worry, just take it easy.",
+    "category": "emotions",
+    "unit": 3
+  },
+  {
+    "id": 55,
+    "phrase": "feel relieved",
+    "translation": "чувствовать облегчение",
+    "example": "I felt relieved when the exam was over.",
+    "category": "emotions",
+    "unit": 1
+  },
+  {
+    "id": 56,
+    "phrase": "be upset with someone",
+    "translation": "обижаться на кого-то",
+    "example": "She was upset with her friend's comment.",
+    "category": "emotions",
+    "unit": 2
+  },
+  {
+    "id": 57,
+    "phrase": "get frustrated",
+    "translation": "раздражаться, терять терпение",
+    "example": "He got frustrated after waiting an hour.",
+    "category": "emotions",
+    "unit": 3
+  },
+  {
+    "id": 58,
+    "phrase": "feel grateful for something",
+    "translation": "быть благодарным за что-то",
+    "example": "I'm grateful for all your help.",
+    "category": "emotions",
+    "unit": 1
+  },
+  {
+    "id": 59,
+    "phrase": "be embarrassed about something",
+    "translation": "стыдиться чего-то",
+    "example": "He was embarrassed about his mistake.",
+    "category": "emotions",
+    "unit": 2
+  },
+  {
+    "id": 60,
+    "phrase": "lose confidence in yourself",
+    "translation": "потерять уверенность в себе",
+    "example": "She lost confidence after the failure.",
+    "category": "emotions",
+    "unit": 3
+  },
+  {
+    "id": 61,
+    "phrase": "feel at ease",
+    "translation": "чувствовать себя комфортно",
+    "example": "Guests felt at ease in the new office.",
+    "category": "emotions",
+    "unit": 1
+  },
+  {
+    "id": 62,
+    "phrase": "be over the moon",
+    "translation": "быть на седьмом небе от счастья",
+    "example": "She was over the moon when she passed the exam.",
+    "category": "emotions",
+    "unit": 2
+  },
+  {
+    "id": 63,
+    "phrase": "hit the roof",
+    "translation": "взрываться, сильно злиться",
+    "example": "My boss will hit the roof if we're late again.",
+    "category": "emotions",
+    "unit": 3
+  },
+  {
+    "id": 64,
+    "phrase": "feel let down",
+    "translation": "чувствовать себя разочарованным, преданным",
+    "example": "The team felt let down by the manager's decision.",
+    "category": "emotions",
+    "unit": 1
+  },
+  {
+    "id": 65,
+    "phrase": "get on someone's nerves",
+    "translation": "раздражать кого-то",
+    "example": "That noise is getting on my nerves.",
+    "category": "emotions",
+    "unit": 2
+  },
+  {
+    "id": 66,
+    "phrase": "feel sorry for someone",
+    "translation": "сочувствовать кому-то",
+    "example": "I felt sorry for the stray cat in the rain.",
+    "category": "emotions",
+    "unit": 3
+  },
+  {
+    "id": 67,
+    "phrase": "be fed up with something",
+    "translation": "надоесть что-то, быть в тоске от чего-то",
+    "example": "I'm fed up with these endless meetings.",
+    "category": "emotions",
+    "unit": 1
+  },
+  {
+    "id": 68,
+    "phrase": "take it personally",
+    "translation": "принимать близко к сердцу",
+    "example": "Don't take my criticism personally.",
+    "category": "emotions",
+    "unit": 2
+  },
+  {
+    "id": 69,
+    "phrase": "feel blue",
+    "translation": "чувствовать себя грустным",
+    "example": "She felt blue after the argument.",
+    "category": "emotions",
+    "unit": 3
+  },
+  {
+    "id": 70,
+    "phrase": "be on cloud nine",
+    "translation": "быть на седьмом небе (от счастья)",
+    "example": "He was on cloud nine after winning the prize.",
+    "category": "emotions",
+    "unit": 1
+  },
+  {
+    "id": 71,
+    "phrase": "heavy rain",
+    "translation": "сильный дождь",
+    "example": "We had heavy rain all night.",
+    "category": "weather",
+    "unit": 2
+  },
+  {
+    "id": 72,
+    "phrase": "light snow",
+    "translation": "лёгкий снег",
+    "example": "There was light snow in the morning.",
+    "category": "weather",
+    "unit": 3
+  },
+  {
+    "id": 73,
+    "phrase": "strong wind",
+    "translation": "сильный ветер",
+    "example": "The strong wind broke several trees.",
+    "category": "weather",
+    "unit": 1
+  },
+  {
+    "id": 74,
+    "phrase": "a hot day",
+    "translation": "жаркий день",
+    "example": "It's been a hot day today.",
+    "category": "weather",
+    "unit": 2
+  },
+  {
+    "id": 75,
+    "phrase": "a cold night",
+    "translation": "холодная ночь",
+    "example": "We had a cold night last week.",
+    "category": "weather",
+    "unit": 3
+  },
+  {
+    "id": 76,
+    "phrase": "take an umbrella",
+    "translation": "взять зонт",
+    "example": "Take an umbrella, it might rain.",
+    "category": "weather",
+    "unit": 1
+  },
+  {
+    "id": 77,
+    "phrase": "forecast rain",
+    "translation": "предсказать дождь",
+    "example": "The weatherman forecasts rain for tomorrow.",
+    "category": "weather",
+    "unit": 2
+  },
+  {
+    "id": 78,
+    "phrase": "clear skies",
+    "translation": "ясное небо",
+    "example": "We enjoyed clear skies during the weekend.",
+    "category": "weather",
+    "unit": 3
+  },
+  {
+    "id": 79,
+    "phrase": "a change in the weather",
+    "translation": "смена погоды",
+    "example": "There was a sudden change in the weather.",
+    "category": "weather",
+    "unit": 1
+  },
+  {
+    "id": 80,
+    "phrase": "heavy fog",
+    "translation": "густой туман",
+    "example": "The flight was delayed because of heavy fog.",
+    "category": "weather",
+    "unit": 2
+  },
+  {
+    "id": 81,
+    "phrase": "a sunny day",
+    "translation": "солнечный день",
+    "example": "It was a sunny day for a picnic.",
+    "category": "weather",
+    "unit": 3
+  },
+  {
+    "id": 82,
+    "phrase": "a stormy night",
+    "translation": "штормовая ночь",
+    "example": "We had a stormy night with thunder and lightning.",
+    "category": "weather",
+    "unit": 1
+  },
+  {
+    "id": 83,
+    "phrase": "take shelter from the rain",
+    "translation": "укрыться от дождя",
+    "example": "We took shelter from the rain in a café.",
+    "category": "weather",
+    "unit": 2
+  },
+  {
+    "id": 84,
+    "phrase": "make the most of the sunshine",
+    "translation": "воспользоваться солнцем",
+    "example": "Let's make the most of the sunshine this afternoon.",
+    "category": "weather",
+    "unit": 3
+  },
+  {
+    "id": 85,
+    "phrase": "a drop in temperature",
+    "translation": "падение температуры",
+    "example": "There was a sudden drop in temperature overnight.",
+    "category": "weather",
+    "unit": 1
+  },
+  {
+    "id": 86,
+    "phrase": "a burst of wind",
+    "translation": "порыв ветра",
+    "example": "A sudden burst of wind knocked over the tent.",
+    "category": "weather",
+    "unit": 2
+  },
+  {
+    "id": 87,
+    "phrase": "a spell of bad weather",
+    "translation": "полоса плохой погоды",
+    "example": "We had a long spell of bad weather in spring.",
+    "category": "weather",
+    "unit": 3
+  },
+  {
+    "id": 88,
+    "phrase": "make a profit",
+    "translation": "получать прибыль",
+    "example": "The company made a record profit last year.",
+    "category": "business",
+    "unit": 1
+  },
+  {
+    "id": 89,
+    "phrase": "lose money",
+    "translation": "потерять деньги",
+    "example": "They lost money on the failed project.",
+    "category": "business",
+    "unit": 2
+  },
+  {
+    "id": 90,
+    "phrase": "do business with someone",
+    "translation": "вести дела с кем-то",
+    "example": "We've done business with them for years.",
+    "category": "business",
+    "unit": 3
+  },
+  {
+    "id": 91,
+    "phrase": "raise funds",
+    "translation": "привлекать средства",
+    "example": "The startup raised funds from investors.",
+    "category": "business",
+    "unit": 1
+  },
+  {
+    "id": 92,
+    "phrase": "cut costs",
+    "translation": "сократить расходы",
+    "example": "The firm cut costs to survive the crisis.",
+    "category": "business",
+    "unit": 2
+  },
+  {
+    "id": 93,
+    "phrase": "make an investment",
+    "translation": "совершить инвестиции",
+    "example": "They made a big investment in new equipment.",
+    "category": "business",
+    "unit": 3
+  },
+  {
+    "id": 94,
+    "phrase": "break even",
+    "translation": "выйти на безубыточность",
+    "example": "We finally broke even after two years.",
+    "category": "business",
+    "unit": 1
+  },
+  {
+    "id": 95,
+    "phrase": "boost sales",
+    "translation": "увеличить продажи",
+    "example": "The campaign boosted sales by 30%.",
+    "category": "business",
+    "unit": 2
+  },
+  {
+    "id": 96,
+    "phrase": "launch a product",
+    "translation": "запустить продукт",
+    "example": "They launched the new product in spring.",
+    "category": "business",
+    "unit": 3
+  },
+  {
+    "id": 97,
+    "phrase": "expand into new markets",
+    "translation": "выйти на новые рынки",
+    "example": "The company plans to expand into new markets in Asia.",
+    "category": "business",
+    "unit": 1
+  },
+  {
+    "id": 98,
+    "phrase": "meet demand",
+    "translation": "удовлетворять спрос",
+    "example": "We can't keep up with rising demand.",
+    "category": "business",
+    "unit": 2
+  },
+  {
+    "id": 99,
+    "phrase": "build a brand",
+    "translation": "строить бренд",
+    "example": "Startups spend years building their brand.",
+    "category": "business",
+    "unit": 3
+  },
+  {
+    "id": 100,
+    "phrase": "negotiate a deal",
+    "translation": "вести переговоры о сделке",
+    "example": "They negotiated the deal for weeks.",
+    "category": "business",
+    "unit": 1
+  },
+  {
+    "id": 101,
+    "phrase": "close a deal",
+    "translation": "заключить сделку",
+    "example": "We closed the deal on Friday.",
+    "category": "business",
+    "unit": 2
+  },
+  {
+    "id": 102,
+    "phrase": "make a bid",
+    "translation": "сделать предложение о цене",
+    "example": "The company made a high bid for the property.",
+    "category": "business",
+    "unit": 3
+  },
+  {
+    "id": 103,
+    "phrase": "keep prices low",
+    "translation": "удерживать цены низкими",
+    "example": "The store keeps its prices very low.",
+    "category": "business",
+    "unit": 1
+  },
+  {
+    "id": 104,
+    "phrase": "break into a market",
+    "translation": "выйти на рынок",
+    "example": "They broke into the Asian market last year.",
+    "category": "business",
+    "unit": 2
+  },
+  {
+    "id": 105,
+    "phrase": "suffer a loss",
+    "translation": "понести убытки",
+    "example": "The firm suffered a big loss in 2024.",
+    "category": "business",
+    "unit": 3
+  },
+  {
+    "id": 106,
+    "phrase": "make an offer",
+    "translation": "сделать предложение (о сделке)",
+    "example": "They made us a generous offer.",
+    "category": "business",
+    "unit": 1
+  },
+  {
+    "id": 107,
+    "phrase": "keep your customers",
+    "translation": "удерживать клиентов",
+    "example": "Good service helps you keep your customers.",
+    "category": "business",
+    "unit": 2
+  },
+  {
+    "id": 108,
+    "phrase": "set up a franchise",
+    "translation": "открыть франшизу",
+    "example": "They set up a franchise in three cities.",
+    "category": "business",
+    "unit": 3
+  },
+  {
+    "id": 109,
+    "phrase": "carry out a merger",
+    "translation": "провести слияние",
+    "example": "The two companies carried out a merger last year.",
+    "category": "business",
+    "unit": 1
+  },
+  {
+    "id": 110,
+    "phrase": "take on a partner",
+    "translation": "взять партнёра в дело",
+    "example": "They took on a new partner in the firm.",
+    "category": "business",
+    "unit": 2
+  },
+  {
+    "id": 111,
+    "phrase": "do the shopping",
+    "translation": "делать покупки",
+    "example": "I do the shopping on Saturdays.",
+    "category": "home",
+    "unit": 3
+  },
+  {
+    "id": 112,
+    "phrase": "cook dinner",
+    "translation": "готовить ужин",
+    "example": "She cooks dinner every evening.",
+    "category": "home",
+    "unit": 1
+  },
+  {
+    "id": 113,
+    "phrase": "clean the house",
+    "translation": "убирать дом",
+    "example": "We clean the house on Sundays.",
+    "category": "home",
+    "unit": 2
+  },
+  {
+    "id": 114,
+    "phrase": "make the bed",
+    "translation": "застелить постель",
+    "example": "He makes his bed before leaving for work.",
+    "category": "home",
+    "unit": 3
+  },
+  {
+    "id": 115,
+    "phrase": "take out the trash",
+    "translation": "вынести мусор",
+    "example": "Don't forget to take out the trash tonight.",
+    "category": "home",
+    "unit": 1
+  },
+  {
+    "id": 116,
+    "phrase": "do the laundry",
+    "translation": "стирать бельё",
+    "example": "I do the laundry once a week.",
+    "category": "home",
+    "unit": 2
+  },
+  {
+    "id": 117,
+    "phrase": "run out of something",
+    "translation": "закончиться что-то",
+    "example": "If you run out of milk, buy more.",
+    "category": "home",
+    "unit": 3
+  },
+  {
+    "id": 118,
+    "phrase": "make breakfast",
+    "translation": "готовить завтрак",
+    "example": "He makes breakfast for the kids.",
+    "category": "home",
+    "unit": 1
+  },
+  {
+    "id": 119,
+    "phrase": "keep the house tidy",
+    "translation": "поддерживать порядок в доме",
+    "example": "She keeps the house very tidy.",
+    "category": "home",
+    "unit": 2
+  },
+  {
+    "id": 120,
+    "phrase": "do the dishes",
+    "translation": "мыть посуду",
+    "example": "I'll do the dishes after dinner.",
+    "category": "home",
+    "unit": 3
+  },
+  {
+    "id": 121,
+    "phrase": "make a mess",
+    "translation": "навести беспорядок",
+    "example": "The kids made a mess in the kitchen.",
+    "category": "home",
+    "unit": 1
+  },
+  {
+    "id": 122,
+    "phrase": "keep up with housework",
+    "translation": "успевать за домашними делами",
+    "example": "It's hard to keep up with all the housework.",
+    "category": "home",
+    "unit": 2
+  },
+  {
+    "id": 123,
+    "phrase": "put things away",
+    "translation": "убирать вещи на место",
+    "example": "Please put your shoes away after you come home.",
+    "category": "home",
+    "unit": 3
+  },
+  {
+    "id": 124,
+    "phrase": "fix a leak",
+    "translation": "устранить протечку",
+    "example": "The plumber fixed the leak quickly.",
+    "category": "home",
+    "unit": 1
+  },
+  {
+    "id": 125,
+    "phrase": "keep the room warm",
+    "translation": "поддерживать тепло в комнате",
+    "example": "We keep the room warm all night in winter.",
+    "category": "home",
+    "unit": 2
+  },
+  {
+    "id": 126,
+    "phrase": "make a cup of tea",
+    "translation": "заварить чашку чая",
+    "example": "I'll make you a cup of tea.",
+    "category": "home",
+    "unit": 3
+  },
+  {
+    "id": 127,
+    "phrase": "look after the children",
+    "translation": "присматривать за детьми",
+    "example": "She looks after the children while I work.",
+    "category": "home",
+    "unit": 1
+  },
+  {
+    "id": 128,
+    "phrase": "keep a pet",
+    "translation": "держать питомца",
+    "example": "They keep a small pet in the flat.",
+    "category": "home",
+    "unit": 2
+  },
+  {
+    "id": 129,
+    "phrase": "put up decorations",
+    "translation": "развесить украшения",
+    "example": "We put up Christmas decorations last week.",
+    "category": "home",
+    "unit": 3
+  },
+  {
+    "id": 130,
+    "phrase": "do some ironing",
+    "translation": "гладить бельё",
+    "example": "I do some ironing on Sunday mornings.",
+    "category": "home",
+    "unit": 1
+  },
+  {
+    "id": 131,
+    "phrase": "catch a cold",
+    "translation": "подхватить простуду",
+    "example": "I caught a cold last week.",
+    "category": "health",
+    "unit": 2
+  },
+  {
+    "id": 132,
+    "phrase": "have a headache",
+    "translation": "иметь головную боль",
+    "example": "She has a terrible headache today.",
+    "category": "health",
+    "unit": 3
+  },
+  {
+    "id": 133,
+    "phrase": "take medicine",
+    "translation": "принимать лекарство",
+    "example": "Take the medicine after eating.",
+    "category": "health",
+    "unit": 1
+  },
+  {
+    "id": 134,
+    "phrase": "lose weight",
+    "translation": "худеть, терять вес",
+    "example": "He lost weight during the summer.",
+    "category": "health",
+    "unit": 2
+  },
+  {
+    "id": 135,
+    "phrase": "gain weight",
+    "translation": "набирать вес",
+    "example": "I gained weight over the holidays.",
+    "category": "health",
+    "unit": 3
+  },
+  {
+    "id": 136,
+    "phrase": "keep fit",
+    "translation": "поддерживать форму",
+    "example": "She keeps fit by swimming every day.",
+    "category": "health",
+    "unit": 1
+  },
+  {
+    "id": 137,
+    "phrase": "take care of your health",
+    "translation": "заботиться о здоровье",
+    "example": "You should take better care of your health.",
+    "category": "health",
+    "unit": 2
+  },
+  {
+    "id": 138,
+    "phrase": "make an appointment",
+    "translation": "записаться на приём",
+    "example": "I need to make an appointment with the doctor.",
+    "category": "health",
+    "unit": 3
+  },
+  {
+    "id": 139,
+    "phrase": "have a check-up",
+    "translation": "пройти обследование",
+    "example": "He has a medical check-up every year.",
+    "category": "health",
+    "unit": 1
+  },
+  {
+    "id": 140,
+    "phrase": "feel better",
+    "translation": "чувствовать себя лучше",
+    "example": "You should feel better by tomorrow.",
+    "category": "health",
+    "unit": 2
+  },
+  {
+    "id": 141,
+    "phrase": "get over an illness",
+    "translation": "выздороветь (справиться с болезнью)",
+    "example": "She got over the illness in a week.",
+    "category": "health",
+    "unit": 3
+  },
+  {
+    "id": 142,
+    "phrase": "build up strength",
+    "translation": "набирать силу",
+    "example": "He built up his strength during training.",
+    "category": "health",
+    "unit": 1
+  },
+  {
+    "id": 143,
+    "phrase": "keep your weight under control",
+    "translation": "держать вес под контролем",
+    "example": "She keeps her weight under control with regular exercise.",
+    "category": "health",
+    "unit": 2
+  },
+  {
+    "id": 144,
+    "phrase": "have a high fever",
+    "translation": "иметь высокую температуру",
+    "example": "The child had a high fever all night.",
+    "category": "health",
+    "unit": 3
+  },
+  {
+    "id": 145,
+    "phrase": "feel run down",
+    "translation": "чувствовать себя разбитым, истощённым",
+    "example": "I've been feeling run down since the flu.",
+    "category": "health",
+    "unit": 1
+  },
+  {
+    "id": 146,
+    "phrase": "keep your energy up",
+    "translation": "поддерживать уровень энергии",
+    "example": "Sleep and food help you keep your energy up.",
+    "category": "health",
+    "unit": 2
+  },
+  {
+    "id": 147,
+    "phrase": "have a sore throat",
+    "translation": "иметь больное горло",
+    "example": "I've had a sore throat for three days.",
+    "category": "health",
+    "unit": 3
+  },
+  {
+    "id": 148,
+    "phrase": "monitor your blood pressure",
+    "translation": "следить за давлением",
+    "example": "You should monitor your blood pressure regularly.",
+    "category": "health",
+    "unit": 1
+  },
+  {
+    "id": 149,
+    "phrase": "book a flight",
+    "translation": "забронировать рейс",
+    "example": "We booked the flight for next week.",
+    "category": "travel",
+    "unit": 2
+  },
+  {
+    "id": 150,
+    "phrase": "pack your bags",
+    "translation": "собрать чемоданы",
+    "example": "Don't forget to pack your bags tonight.",
+    "category": "travel",
+    "unit": 3
+  },
+  {
+    "id": 151,
+    "phrase": "catch a train",
+    "translation": "успеть на поезд",
+    "example": "We caught the last train home.",
+    "category": "travel",
+    "unit": 1
+  },
+  {
+    "id": 152,
+    "phrase": "miss the connection",
+    "translation": "опоздать на пересадку",
+    "example": "We missed our connection in Paris.",
+    "category": "travel",
+    "unit": 2
+  },
+  {
+    "id": 153,
+    "phrase": "take a trip",
+    "translation": "совершить поездку",
+    "example": "They took a long trip across Europe.",
+    "category": "travel",
+    "unit": 3
+  },
+  {
+    "id": 154,
+    "phrase": "plan a holiday",
+    "translation": "спланировать отпуск",
+    "example": "We're planning a holiday in Spain.",
+    "category": "travel",
+    "unit": 1
+  },
+  {
+    "id": 155,
+    "phrase": "check into a hotel",
+    "translation": "заселиться в отель",
+    "example": "We checked into the hotel at noon.",
+    "category": "travel",
+    "unit": 2
+  },
+  {
+    "id": 156,
+    "phrase": "check out",
+    "translation": "выписаться из отеля",
+    "example": "Please check out of the hotel before noon.",
+    "category": "travel",
+    "unit": 3
+  },
+  {
+    "id": 157,
+    "phrase": "get lost",
+    "translation": "заблудиться",
+    "example": "We got lost in the old town.",
+    "category": "travel",
+    "unit": 1
+  },
+  {
+    "id": 158,
+    "phrase": "take off",
+    "translation": "взлететь (самолёт)",
+    "example": "The plane took off at six o'clock.",
+    "category": "travel",
+    "unit": 2
+  },
+  {
+    "id": 159,
+    "phrase": "hit the road",
+    "translation": "отправиться в путь",
+    "example": "We'll hit the road early tomorrow morning.",
+    "category": "travel",
+    "unit": 3
+  },
+  {
+    "id": 160,
+    "phrase": "make a short stop",
+    "translation": "сделать короткую остановку",
+    "example": "We made a short stop in Vienna.",
+    "category": "travel",
+    "unit": 1
+  },
+  {
+    "id": 161,
+    "phrase": "take a detour",
+    "translation": "свернуть с маршрута (сделать крюк)",
+    "example": "We took a detour to visit the castle.",
+    "category": "travel",
+    "unit": 2
+  },
+  {
+    "id": 162,
+    "phrase": "take a tour",
+    "translation": "совершить экскурсию",
+    "example": "We took a guided tour of the museum.",
+    "category": "travel",
+    "unit": 3
+  },
+  {
+    "id": 163,
+    "phrase": "make your way through",
+    "translation": "пробираться сквозь",
+    "example": "We made our way slowly through the crowd.",
+    "category": "travel",
+    "unit": 1
+  },
+  {
+    "id": 164,
+    "phrase": "make a long journey",
+    "translation": "совершить долгий путь",
+    "example": "They made a long journey to Scotland.",
+    "category": "travel",
+    "unit": 2
+  },
+  {
+    "id": 165,
+    "phrase": "set off on a journey",
+    "translation": "отправиться в путешествие",
+    "example": "They set off on their journey at dawn.",
+    "category": "travel",
+    "unit": 3
+  },
+  {
+    "id": 166,
+    "phrase": "pass an exam",
+    "translation": "сдать экзамен",
+    "example": "She passed the exam with flying colours.",
+    "category": "education",
+    "unit": 1
+  },
+  {
+    "id": 167,
+    "phrase": "fail a test",
+    "translation": "провалить, не сдать тест",
+    "example": "He failed the test on his first attempt.",
+    "category": "education",
+    "unit": 2
+  },
+  {
+    "id": 168,
+    "phrase": "take a course",
+    "translation": "пройти курс",
+    "example": "I'm taking a course in English online.",
+    "category": "education",
+    "unit": 3
+  },
+  {
+    "id": 169,
+    "phrase": "do homework",
+    "translation": "делать домашнее задание",
+    "example": "The students do their homework after school.",
+    "category": "education",
+    "unit": 1
+  },
+  {
+    "id": 170,
+    "phrase": "get a degree",
+    "translation": "получить диплом",
+    "example": "She got her degree last June.",
+    "category": "education",
+    "unit": 2
+  },
+  {
+    "id": 171,
+    "phrase": "write an essay",
+    "translation": "написать эссе",
+    "example": "We have to write an essay this week.",
+    "category": "education",
+    "unit": 3
+  },
+  {
+    "id": 172,
+    "phrase": "take notes",
+    "translation": "делать заметки",
+    "example": "Take notes during the lecture.",
+    "category": "education",
+    "unit": 1
+  },
+  {
+    "id": 173,
+    "phrase": "make an effort",
+    "translation": "приложить усилия",
+    "example": "You need to make more effort in class.",
+    "category": "education",
+    "unit": 2
+  },
+  {
+    "id": 174,
+    "phrase": "turn in an assignment",
+    "translation": "сдать работу",
+    "example": "Turn in your assignment by Friday.",
+    "category": "education",
+    "unit": 3
+  },
+  {
+    "id": 175,
+    "phrase": "get good grades",
+    "translation": "получать хорошие оценки",
+    "example": "She gets good grades at school.",
+    "category": "education",
+    "unit": 1
+  },
+  {
+    "id": 176,
+    "phrase": "keep up with the lessons",
+    "translation": "успевать за уроками",
+    "example": "It's hard to keep up with all the lessons.",
+    "category": "education",
+    "unit": 2
+  },
+  {
+    "id": 177,
+    "phrase": "take an exam",
+    "translation": "сдавать экзамен",
+    "example": "We take a final exam at the end of the year.",
+    "category": "education",
+    "unit": 3
+  },
+  {
+    "id": 178,
+    "phrase": "win a scholarship",
+    "translation": "получить стипендию",
+    "example": "She won a full scholarship for university.",
+    "category": "education",
+    "unit": 1
+  },
+  {
+    "id": 179,
+    "phrase": "do a project",
+    "translation": "выполнить проектную работу",
+    "example": "The students did a group project on history.",
+    "category": "education",
+    "unit": 2
+  },
+  {
+    "id": 180,
+    "phrase": "keep yourself up to date",
+    "translation": "держать себя в курсе событий",
+    "example": "Read the news to keep yourself up to date.",
+    "category": "education",
+    "unit": 3
+  },
+  {
+    "id": 181,
+    "phrase": "get a certificate",
+    "translation": "получить сертификат",
+    "example": "He got a certificate after the course.",
+    "category": "education",
+    "unit": 1
+  },
+  {
+    "id": 182,
+    "phrase": "catch up on your studies",
+    "translation": "наверстать упущенное в учёбе",
+    "example": "She caught up on her studies over the summer.",
+    "category": "education",
+    "unit": 2
+  },
+  {
+    "id": 183,
+    "phrase": "cook a meal",
+    "translation": "приготовить блюдо",
+    "example": "He cooked a delicious meal for the guests.",
+    "category": "food",
+    "unit": 3
+  },
+  {
+    "id": 184,
+    "phrase": "make a cake",
+    "translation": "испечь торт",
+    "example": "She made a chocolate cake for her birthday.",
+    "category": "food",
+    "unit": 1
+  },
+  {
+    "id": 185,
+    "phrase": "have breakfast",
+    "translation": "завтракать",
+    "example": "We had breakfast at eight o'clock.",
+    "category": "food",
+    "unit": 2
+  },
+  {
+    "id": 186,
+    "phrase": "eat out",
+    "translation": "есть в ресторане, вне дома",
+    "example": "They eat out on Fridays.",
+    "category": "food",
+    "unit": 3
+  },
+  {
+    "id": 187,
+    "phrase": "make a salad",
+    "translation": "приготовить салат",
+    "example": "I'll make a fresh salad for dinner.",
+    "category": "food",
+    "unit": 1
+  },
+  {
+    "id": 188,
+    "phrase": "book a table",
+    "translation": "забронировать столик",
+    "example": "We booked a table for eight people.",
+    "category": "food",
+    "unit": 2
+  },
+  {
+    "id": 189,
+    "phrase": "have a snack",
+    "translation": "перекусить",
+    "example": "We had a quick snack before the meeting.",
+    "category": "food",
+    "unit": 3
+  },
+  {
+    "id": 190,
+    "phrase": "bake bread",
+    "translation": "испечь хлеб",
+    "example": "She bakes fresh bread every morning.",
+    "category": "food",
+    "unit": 1
+  },
+  {
+    "id": 191,
+    "phrase": "make soup",
+    "translation": "приготовить суп",
+    "example": "I'll make a vegetable soup for dinner.",
+    "category": "food",
+    "unit": 2
+  },
+  {
+    "id": 192,
+    "phrase": "keep a healthy diet",
+    "translation": "придерживаться здорового питания",
+    "example": "It's important to keep a healthy diet.",
+    "category": "food",
+    "unit": 3
+  },
+  {
+    "id": 193,
+    "phrase": "have dinner",
+    "translation": "ужинать",
+    "example": "We had dinner at the restaurant last night.",
+    "category": "food",
+    "unit": 1
+  },
+  {
+    "id": 194,
+    "phrase": "make a sandwich",
+    "translation": "сделать бутерброд",
+    "example": "I'll make you a quick sandwich.",
+    "category": "food",
+    "unit": 2
+  },
+  {
+    "id": 195,
+    "phrase": "order take-away",
+    "translation": "заказать еду с собой",
+    "example": "We ordered take-away for the office.",
+    "category": "food",
+    "unit": 3
+  },
+  {
+    "id": 196,
+    "phrase": "have a conversation",
+    "translation": "вести разговор",
+    "example": "We had a long conversation about the future.",
+    "category": "communication",
+    "unit": 1
+  },
+  {
+    "id": 197,
+    "phrase": "make a phone call",
+    "translation": "сделать телефонный звонок",
+    "example": "I'll make a phone call later today.",
+    "category": "communication",
+    "unit": 2
+  },
+  {
+    "id": 198,
+    "phrase": "keep in touch",
+    "translation": "поддерживать связь",
+    "example": "Let's keep in touch after you move.",
+    "category": "communication",
+    "unit": 3
+  },
+  {
+    "id": 199,
+    "phrase": "break the ice",
+    "translation": "снять напряжение, наладить контакт",
+    "example": "He told a joke to break the ice.",
+    "category": "communication",
+    "unit": 1
+  },
+  {
+    "id": 200,
+    "phrase": "get your point across",
+    "translation": "донести свою мысль",
+    "example": "He struggled to get his point across.",
+    "category": "communication",
+    "unit": 2
+  },
+  {
+    "id": 201,
+    "phrase": "make yourself clear",
+    "translation": "быть понятным, чётко выражаться",
+    "example": "Please make yourself clear when you give instructions.",
+    "category": "communication",
+    "unit": 3
+  },
+  {
+    "id": 202,
+    "phrase": "take part in a discussion",
+    "translation": "участвовать в обсуждении",
+    "example": "Everyone took part in the discussion.",
+    "category": "communication",
+    "unit": 1
+  },
+  {
+    "id": 203,
+    "phrase": "have a chat",
+    "translation": "поболтать, поговорить",
+    "example": "We had a quick chat over coffee.",
+    "category": "communication",
+    "unit": 2
+  },
+  {
+    "id": 204,
+    "phrase": "make small talk",
+    "translation": "вести светскую беседу",
+    "example": "He's good at making small talk with strangers.",
+    "category": "communication",
+    "unit": 3
+  },
+  {
+    "id": 205,
+    "phrase": "take sides",
+    "translation": "занимать чью-то сторону",
+    "example": "Don't take sides in the argument.",
+    "category": "communication",
+    "unit": 1
+  },
+  {
+    "id": 206,
+    "phrase": "keep your voice down",
+    "translation": "говорить тише, понизить голос",
+    "example": "Please keep your voice down in the library.",
+    "category": "communication",
+    "unit": 2
+  },
+  {
+    "id": 207,
+    "phrase": "make a remark",
+    "translation": "сделать замечание",
+    "example": "She made a funny remark about the weather.",
+    "category": "communication",
+    "unit": 3
+  },
+  {
+    "id": 208,
+    "phrase": "have a word",
+    "translation": "поговорить (по серьёзному поводу)",
+    "example": "The manager wants to have a word with you.",
+    "category": "communication",
+    "unit": 1
+  }
 ]

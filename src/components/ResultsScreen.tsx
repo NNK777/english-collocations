@@ -74,15 +74,12 @@ export default function ResultsScreen({ results, config, onRetry, onSettings }: 
           onClick={onSettings}
           className="w-full rounded-xl border border-slate-200 bg-white px-4 py-4 text-base font-medium transition-colors hover:border-indigo-300 dark:border-slate-700 dark:bg-slate-900 dark:hover:border-indigo-700"
         >
-          Изменить настройки
+          Выбрать юнит
         </button>
       </div>
 
       <p className="text-center text-xs text-slate-400 dark:text-slate-500">
-        Тест: {config.count}{' '}
-        {plural(config.count, 'вопрос', 'вопроса', 'вопросов')}
-        {config.category ? `, категория: ${config.category}` : ', все категории'}
-        {config.level !== 'all' ? `, уровень: ${config.level}` : ''}
+        Тест: Unit {config.unit}, {results.total} выражений
       </p>
     </div>
   )

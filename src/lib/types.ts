@@ -1,12 +1,10 @@
-export type Level = 'A2' | 'B1' | 'B2' | 'C1'
-
 export interface Collocation {
   id: number
   phrase: string
   translation: string
   example: string
   category: string
-  level: Level
+  unit: number
 }
 
 export const CATEGORIES: { id: string; label: string }[] = [
@@ -22,12 +20,15 @@ export const CATEGORIES: { id: string; label: string }[] = [
   { id: 'communication', label: 'Общение' },
 ]
 
-export const LEVELS: Level[] = ['A2', 'B1', 'B2', 'C1']
+export const UNITS: { id: number; label: string }[] = [
+  { id: 1, label: 'Unit 1' },
+  { id: 2, label: 'Unit 2' },
+  { id: 3, label: 'Unit 3' },
+]
 
-export type LevelFilter = Level | 'all'
+/** Тест всегда содержит 10 выражений из коллокаций выбранного юнита. */
+export const TEST_QUESTION_COUNT = 10
 
 export interface QuizConfig {
-  category: string | null
-  level: LevelFilter
-  count: number
+  unit: number
 }

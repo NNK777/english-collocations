@@ -1,5 +1,6 @@
 import raw from '../data/collocations.json'
-import type { Collocation, LevelFilter } from './types'
+import type { Collocation } from './types'
+import { TEST_QUESTION_COUNT } from './types'
 
 export const collocations = raw as unknown as Collocation[]
 
@@ -35,7 +36,7 @@ export interface EligibleEntry extends Collocation {
 }
 
 /**
- * К викторине допускаются коллокации, у которых партнёр встречается
+ * К тестированию допускаются коллокации, у которых партнёр встречается
  * в примере ровно один раз — так вопрос однозначен.
  */
 function buildPool(): EligibleEntry[] {
@@ -99,10 +100,8 @@ function pickDistractors(
   return out
 }
 
-export function generateQuiz(category: string | null, level: LevelFilter, count: number): Question[] {
-  const pool = buildPool().filter(
-    (e) => (!category || e.category === category) && (level === 'all' || e.level === level),
-  )
+export function generateQuiz(unit: number): Question[] {
+  const pool = buildPool().filter((e) => e.unit === unit)
   if (pool.length === 0) return []
 
   // Партнёры, которые сочетаются с данным головным словом — их нельзя брать в дистракторы,
@@ -120,7 +119,7 @@ export function generateQuiz(category: string | null, level: LevelFilter, count:
 
   const questions: Question[] = []
   for (const entry of shuffle(pool)) {
-    if (questions.length >= count) break
+    if (questions.length >= TEST_QUESTION_COUNT) break
     const type: QuestionType = Math.random() < 0.5 ? 'fill' : 'choose'
     let sentence: string | undefined
     let forbidden = new Set<string>()
@@ -141,9 +140,7 @@ export function generateQuiz(category: string | null, level: LevelFilter, count:
   return questions
 }
 
-/** Сколько коллокаций доступно для выбранных условий. */
-export function availableCount(category: string | null, level: LevelFilter): number {
-  return buildPool().filter(
-    (e) => (!category || e.category === category) && (level === 'all' || e.level === level),
-  ).length
+/** Сколько коллокаций доступно в выбранном юните. */
+export function availableCount(unit: number): number {
+  return buildPool().filter((e) => e.unit === unit).length
 }
