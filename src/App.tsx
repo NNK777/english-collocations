@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import CategoryPicker from './components/CategoryPicker'
+import IntroductionScreen from './components/IntroductionScreen'
 import QuizScreen from './components/QuizScreen'
 import ResultsScreen from './components/ResultsScreen'
 import { generateQuiz } from './lib/quiz'
@@ -7,7 +8,7 @@ import type { Question, QuizResult } from './lib/quiz'
 import type { QuizConfig } from './lib/types'
 import { useTheme } from './lib/useTheme'
 
-type Screen = 'setup' | 'quiz' | 'results'
+type Screen = 'setup' | 'intro' | 'quiz' | 'results'
 
 export default function App() {
   const { theme, toggleTheme } = useTheme()
@@ -18,6 +19,10 @@ export default function App() {
 
   const startQuiz = (cfg: QuizConfig) => {
     setConfig(cfg)
+    if (cfg.unit === 0) {
+      setScreen('intro')
+      return
+    }
     setQuestions(generateQuiz(cfg.unit))
     setScreen('quiz')
   }
@@ -50,6 +55,7 @@ export default function App() {
 
       <main className="mx-auto w-full max-w-xl px-4 pb-10 pt-4">
         {screen === 'setup' && <CategoryPicker onStart={startQuiz} />}
+        {screen === 'intro' && <IntroductionScreen onExit={() => setScreen('setup')} />}
         {screen === 'quiz' && (
           <QuizScreen
             questions={questions}

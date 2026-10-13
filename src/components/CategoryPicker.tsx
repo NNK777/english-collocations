@@ -18,6 +18,19 @@ export default function CategoryPicker({ onStart }: Props) {
         <h2 className="mb-2 text-sm font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">
           Раздел / Unit
         </h2>
+        <div className="mb-2">
+          <button
+            type="button"
+            onClick={() => setUnit(0)}
+            className={`w-full rounded-xl border px-3 py-4 text-center transition-colors ${
+              unit === 0
+                ? 'border-indigo-500 bg-indigo-50 dark:bg-indigo-950/60'
+                : 'border-slate-200 bg-white hover:border-indigo-300 dark:border-slate-700 dark:bg-slate-900 dark:hover:border-indigo-700'
+            }`}
+          >
+            <span className="block text-sm font-medium">Введение / Introduction</span>
+          </button>
+        </div>
         <div className="grid grid-cols-3 gap-2">
           {UNITS.map((u) => (
             <button
@@ -38,7 +51,9 @@ export default function CategoryPicker({ onStart }: Props) {
 
       <div className="rounded-xl border border-slate-200 bg-white p-4 text-sm text-slate-600 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-300">
         {unit === null ? (
-          <p>Выберите юнит для начала изучения.</p>
+          <p>Выберите раздел для начала изучения.</p>
+        ) : unit === 0 ? (
+          <p>Выбран раздел «Введение». Здесь вы узнаете, что такое коллокации.</p>
         ) : count === 0 ? (
           <p>В выбранном юните пока нет коллокаций.</p>
         ) : (
@@ -52,7 +67,7 @@ export default function CategoryPicker({ onStart }: Props) {
 
       <button
         type="button"
-        disabled={unit === null || count === 0}
+        disabled={unit === null || (unit !== 0 && count === 0)}
         onClick={() => onStart({ unit: unit! })}
         className="w-full rounded-xl bg-indigo-600 px-4 py-4 text-base font-semibold text-white transition-colors hover:bg-indigo-500 disabled:cursor-not-allowed disabled:bg-slate-300 dark:disabled:bg-slate-700"
       >
