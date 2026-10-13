@@ -16,7 +16,7 @@ export default function CategoryPicker({ onStart }: Props) {
     <div className="space-y-6">
       <section>
         <h2 className="mb-2 text-sm font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">
-          Юнит
+          Раздел / Unit
         </h2>
         <div className="grid grid-cols-3 gap-2">
           {UNITS.map((u) => (
