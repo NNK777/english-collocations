@@ -41,8 +41,8 @@ export default function IntroductionScreen({ onExit }: Props) {
         <p className="text-base leading-relaxed">
           <span className="font-semibold text-[rgb(34,80,128)] dark:text-[rgb(96,165,250)]">Что такое коллокация?</span>
           <br />
-          Коллокация означает естественное сочетание слов; это способ, которым английские слова
-          тесно связаны друг с другом. Например, <CollocationWord word="do" translation="делать" /> и{' '}
+          Коллокация — это естественное сочетание слов. Под этим термином понимается то, как
+          английские слова тесно связаны друг с другом. Например, <CollocationWord word="do" translation="делать" /> и{' '}
           <CollocationWord word="homework" translation="домашнее задание" /> сочетаются друг с
           другом, так же как <CollocationWord word="make" translation="совершать" /> и{' '}
           <CollocationWord word="mistakes" translation="ошибки" />;{' '}
