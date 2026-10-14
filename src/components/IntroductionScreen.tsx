@@ -39,7 +39,7 @@ export default function IntroductionScreen({ onExit }: Props) {
         className="w-full cursor-pointer rounded-2xl border border-slate-200 bg-white p-5 text-left shadow-sm transition-colors hover:border-indigo-300 dark:border-slate-700 dark:bg-slate-900 dark:hover:border-indigo-700"
       >
         <p className="text-base leading-relaxed">
-          <span className="font-semibold">Что такое коллокация?</span>
+          <span className="font-semibold text-[rgb(34,80,128)]">Что такое коллокация?</span>
           <br />
           Коллокация означает естественное сочетание слов; это способ, которым английские слова
           тесно связаны друг с другом. Например, <CollocationWord word="do" translation="делать" /> и{' '}
@@ -59,7 +59,7 @@ export default function IntroductionScreen({ onExit }: Props) {
 
           {showEnglish && (
             <p className="text-sm italic leading-relaxed text-slate-500 dark:text-slate-400">
-              <span className="font-semibold">What is a collocation?</span>
+              <span className="font-semibold text-[rgb(34,80,128)]">What is a collocation?</span>
               <br />
               Collocation means a natural combination of words; it refers to the way English words
               are closely associated with each other. For example,{' '}
