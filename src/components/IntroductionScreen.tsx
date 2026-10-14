@@ -93,9 +93,9 @@ export default function IntroductionScreen({ onExit }: Props) {
 
       <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm dark:border-slate-700 dark:bg-slate-900">
         <p className="text-base leading-relaxed">
-          <span className="font-semibold text-[rgb(34,80,128)] dark:text-[rgb(96,165,250)]">Зачем изучать словосочетания?</span>
+          <span className="font-semibold text-[rgb(34,80,128)] dark:text-[rgb(96,165,250)]">Зачем изучать коллокации?</span>
           <br />
-          Вам нужно изучать словосочетания, потому что они помогут вам говорить и писать
+          Коллокации помогут вам говорить и писать
           по-английски более естественно и точно. Люди, вероятно, поймут, что вы имеете в виду,
           если вы скажете «<WrongCollocation word="making your homework" />» или «My uncle is a very{' '}
           <WrongCollocation word="high man" />», но ваша речь будет звучать неестественно и,
