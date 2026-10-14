@@ -1,3 +1,5 @@
+import { useState } from 'react'
+
 interface Props {
   onExit: () => void
 }
@@ -14,6 +16,8 @@ function CollocationWord({ word, translation }: { word: string; translation: str
 }
 
 export default function IntroductionScreen({ onExit }: Props) {
+  const [showEnglish, setShowEnglish] = useState(false)
+
   return (
     <div className="space-y-4">
       <div className="flex items-center justify-between">
@@ -29,7 +33,11 @@ export default function IntroductionScreen({ onExit }: Props) {
         </button>
       </div>
 
-      <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm dark:border-slate-700 dark:bg-slate-900">
+      <button
+        type="button"
+        onClick={() => setShowEnglish(!showEnglish)}
+        className="w-full cursor-pointer rounded-2xl border border-slate-200 bg-white p-5 text-left shadow-sm transition-colors hover:border-indigo-300 dark:border-slate-700 dark:bg-slate-900 dark:hover:border-indigo-700"
+      >
         <p className="text-base leading-relaxed">
           <span className="font-semibold">Что такое коллокация?</span>
           <br />
@@ -44,19 +52,25 @@ export default function IntroductionScreen({ onExit }: Props) {
           <CollocationWord word="high" translation="высокий" /> — с{' '}
           <CollocationWord word="mountain" translation="гора" />.
         </p>
-      </div>
 
-      <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm dark:border-slate-700 dark:bg-slate-900">
-        <p className="text-sm italic leading-relaxed text-slate-500 dark:text-slate-400">
-          <span className="font-semibold">What is a collocation?</span>
-          <br />
-          <br />
-          Collocation means a natural combination of words; it refers to the way English words are
-          closely associated with each other. For example, <em>do</em> and <em>homework</em> go
-          together, as do <em>make</em> and <em>mistakes</em>; <em>tall</em> goes with{' '}
-          <em>man/woman</em> and <em>high</em> with <em>mountain</em>.
-        </p>
-      </div>
+        <div className="mt-4 border-t border-slate-200 pt-4 dark:border-slate-700">
+          <p className="mb-1 text-xs font-semibold uppercase tracking-wide text-slate-400 dark:text-slate-500">
+            {showEnglish ? 'Скрыть английский текст' : 'Показать английский текст'}
+          </p>
+
+          {showEnglish && (
+            <p className="text-sm italic leading-relaxed text-slate-500 dark:text-slate-400">
+              <span className="font-semibold">What is a collocation?</span>
+              <br />
+              <br />
+              Collocation means a natural combination of words; it refers to the way English words
+              are closely associated with each other. For example, <em>do</em> and <em>homework</em>{' '}
+              go together, as do <em>make</em> and <em>mistakes</em>; <em>tall</em> goes with{' '}
+              <em>man/woman</em> and <em>high</em> with <em>mountain</em>.
+            </p>
+          )}
+        </div>
+      </button>
     </div>
   )
 }
