@@ -25,14 +25,14 @@ export default function IntroductionScreen({ onExit }: Props) {
           <br />
           Collocation means a natural combination of words; it refers to the way English words are
           closely associated with each other. For example,{' '}
-          <em className="font-semibold text-[rgb(0,255,0)]">do</em> and{' '}
-          <em className="font-semibold text-[rgb(0,255,0)]">homework</em> go
-          together, as do <em className="font-semibold text-[rgb(0,255,0)]">make</em> and{' '}
-          <em className="font-semibold text-[rgb(0,255,0)]">mistakes</em>;{' '}
-          <em className="font-semibold text-[rgb(0,255,0)]">tall</em> goes with{' '}
-          <em className="font-semibold text-[rgb(0,255,0)]">man/woman</em> and{' '}
-          <em className="font-semibold text-[rgb(0,255,0)]">high</em> with{' '}
-          <em className="font-semibold text-[rgb(0,255,0)]">mountain</em>.
+          <em className="font-semibold text-emerald-600 dark:text-emerald-400">do</em> and{' '}
+          <em className="font-semibold text-emerald-600 dark:text-emerald-400">homework</em> go
+          together, as do <em className="font-semibold text-emerald-600 dark:text-emerald-400">make</em> and{' '}
+          <em className="font-semibold text-emerald-600 dark:text-emerald-400">mistakes</em>;{' '}
+          <em className="font-semibold text-emerald-600 dark:text-emerald-400">tall</em> goes with{' '}
+          <em className="font-semibold text-emerald-600 dark:text-emerald-400">man/woman</em> and{' '}
+          <em className="font-semibold text-emerald-600 dark:text-emerald-400">high</em> with{' '}
+          <em className="font-semibold text-emerald-600 dark:text-emerald-400">mountain</em>.
         </p>
       </div>
     </div>
