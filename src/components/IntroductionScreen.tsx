@@ -2,6 +2,17 @@ interface Props {
   onExit: () => void
 }
 
+function CollocationWord({ word, translation }: { word: string; translation: string }) {
+  return (
+    <span className="group relative inline-block">
+      <em className="font-semibold text-emerald-600 dark:text-emerald-400">{word}</em>
+      <span className="pointer-events-none absolute bottom-full left-1/2 z-10 mb-1 -translate-x-1/2 whitespace-nowrap rounded-md bg-slate-800 px-2 py-1 text-xs text-white opacity-0 transition-opacity group-hover:opacity-100 group-hover:visible group-active:opacity-100 group-active:visible group-focus-within:opacity-100 group-focus-within:visible dark:bg-slate-700">
+        {translation}
+      </span>
+    </span>
+  )
+}
+
 export default function IntroductionScreen({ onExit }: Props) {
   return (
     <div className="space-y-4">
@@ -24,29 +35,14 @@ export default function IntroductionScreen({ onExit }: Props) {
           <br />
           <br />
           Коллокация означает естественное сочетание слов; это способ, которым английские слова
-          тесно связаны друг с другом. Например,{' '}
-          <em className="font-semibold text-emerald-600 dark:text-emerald-400">do (делать)</em> и{' '}
-          <em className="font-semibold text-emerald-600 dark:text-emerald-400">
-            homework (домашнее задание)
-          </em>{' '}
-          сочетаются друг с другом, так же как{' '}
-          <em className="font-semibold text-emerald-600 dark:text-emerald-400">
-            make (совершать)
-          </em>{' '}
-          и{' '}
-          <em className="font-semibold text-emerald-600 dark:text-emerald-400">
-            mistakes (ошибки)
-          </em>
-          ;{' '}
-          <em className="font-semibold text-emerald-600 dark:text-emerald-400">tall (высокий)</em> —
-          с{' '}
-          <em className="font-semibold text-emerald-600 dark:text-emerald-400">
-            man/woman (мужчина/женщина)
-          </em>
-          , а{' '}
-          <em className="font-semibold text-emerald-600 dark:text-emerald-400">high (высокий)</em>{' '}
-          — с{' '}
-          <em className="font-semibold text-emerald-600 dark:text-emerald-400">mountain (гора)</em>.
+          тесно связаны друг с другом. Например, <CollocationWord word="do" translation="делать" /> и{' '}
+          <CollocationWord word="homework" translation="домашнее задание" /> сочетаются друг с
+          другом, так же как <CollocationWord word="make" translation="совершать" /> и{' '}
+          <CollocationWord word="mistakes" translation="ошибки" />;{' '}
+          <CollocationWord word="tall" translation="высокий" /> — с{' '}
+          <CollocationWord word="man/woman" translation="мужчина/женщина" />, а{' '}
+          <CollocationWord word="high" translation="высокий" /> — с{' '}
+          <CollocationWord word="mountain" translation="гора" />.
         </p>
       </div>
 
@@ -56,16 +52,9 @@ export default function IntroductionScreen({ onExit }: Props) {
           <br />
           <br />
           Collocation means a natural combination of words; it refers to the way English words are
-          closely associated with each other. For example,{' '}
-          <em className="font-semibold text-emerald-600 dark:text-emerald-400">do</em> and{' '}
-          <em className="font-semibold text-emerald-600 dark:text-emerald-400">homework</em> go
-          together, as do{' '}
-          <em className="font-semibold text-emerald-600 dark:text-emerald-400">make</em> and{' '}
-          <em className="font-semibold text-emerald-600 dark:text-emerald-400">mistakes</em>;{' '}
-          <em className="font-semibold text-emerald-600 dark:text-emerald-400">tall</em> goes with{' '}
-          <em className="font-semibold text-emerald-600 dark:text-emerald-400">man/woman</em> and{' '}
-          <em className="font-semibold text-emerald-600 dark:text-emerald-400">high</em> with{' '}
-          <em className="font-semibold text-emerald-600 dark:text-emerald-400">mountain</em>.
+          closely associated with each other. For example, <em>do</em> and <em>homework</em> go
+          together, as do <em>make</em> and <em>mistakes</em>; <em>tall</em> goes with{' '}
+          <em>man/woman</em> and <em>high</em> with <em>mountain</em>.
         </p>
       </div>
     </div>
