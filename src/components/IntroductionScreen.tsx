@@ -32,6 +32,7 @@ function WrongCollocation({ word, translation }: { word: string; translation?: s
 export default function IntroductionScreen({ onExit }: Props) {
   const [showEnglish, setShowEnglish] = useState(false)
   const [showEnglish2, setShowEnglish2] = useState(false)
+  const [showEnglish3, setShowEnglish3] = useState(false)
 
   return (
     <div className="space-y-4">
@@ -140,6 +141,43 @@ export default function IntroductionScreen({ onExit }: Props) {
                 English and want to make a good impression on the examiners.
               </p>
             </div>
+          )}
+        </div>
+      </div>
+
+      <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm dark:border-slate-700 dark:bg-slate-900">
+        <p className="text-base leading-relaxed">
+          <span className="font-semibold text-[rgb(34,80,128)] dark:text-[rgb(96,165,250)]">Как были отобраны коллокации для этого курса?</span>
+          <br />
+          Коллокации, представленные в этом курсе, были в основном отобраны из тех, которые были
+          признаны значимыми Кембриджским международным корпусом письменного и разговорного
+          английского языка (ныне известным как Кембриджский английский корпус), а также корпусом
+          разговорного английского языка CANCODE, разработанным в Ноттингемском университете в
+          сотрудничестве с издательством Cambridge University Press. Кембриджский корпус английского
+          языка — это обширная база данных реальных текстов на английском языке, взятых из
+          различных источников, таких как книги, газеты, реклама, письма и электронные письма,
+          веб-сайты, разговоры и речи, а также радио и телевидение. Изучив этот корпус, была
+          получена репрезентативная картину того, как на самом деле используется английский язык и
+          какие слова естественным образом и часто встречаются вместе. Также широко использовался
+          «Кембриджский корпус учащихся» — корпус текстов, написанных учащимися на английском
+          языке, составленный из экзаменационных работ студентов, сдававших экзамены по
+          английскому языку Кембриджского университета по всему миру. Именно этот корпус показал,
+          какие именно ошибки в словосочетаниях чаще всего допускают учащиеся.
+        </p>
+
+        <div className="mt-4 border-t border-slate-200 pt-4 dark:border-slate-700">
+          <button
+            type="button"
+            onClick={() => setShowEnglish3(!showEnglish3)}
+            className="text-xs font-semibold uppercase tracking-wide text-slate-400 transition-colors hover:text-indigo-600 dark:text-slate-500 dark:hover:text-indigo-400"
+          >
+            {showEnglish3 ? 'Скрыть английский текст' : 'Показать английский текст'}
+          </button>
+
+          {showEnglish3 && (
+            <p className="mt-2 text-sm italic leading-relaxed text-slate-500 dark:text-slate-400">
+              English text will be added later.
+            </p>
           )}
         </div>
       </div>
