@@ -47,11 +47,7 @@ export default function IntroductionScreen({ onExit }: Props) {
         </button>
       </div>
 
-      <button
-        type="button"
-        onClick={() => setShowEnglish(!showEnglish)}
-        className="w-full cursor-pointer rounded-2xl border border-slate-200 bg-white p-5 text-left shadow-sm transition-colors hover:border-indigo-300 dark:border-slate-700 dark:bg-slate-900 dark:hover:border-indigo-700"
-      >
+      <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm dark:border-slate-700 dark:bg-slate-900">
         <p className="text-base leading-relaxed">
           <span className="font-semibold text-[rgb(34,80,128)] dark:text-[rgb(96,165,250)]">Что такое коллокация?</span>
           <br />
@@ -67,12 +63,16 @@ export default function IntroductionScreen({ onExit }: Props) {
         </p>
 
         <div className="mt-4 border-t border-slate-200 pt-4 dark:border-slate-700">
-          <p className="mb-1 text-xs font-semibold uppercase tracking-wide text-slate-400 dark:text-slate-500">
+          <button
+            type="button"
+            onClick={() => setShowEnglish(!showEnglish)}
+            className="text-xs font-semibold uppercase tracking-wide text-slate-400 transition-colors hover:text-indigo-600 dark:text-slate-500 dark:hover:text-indigo-400"
+          >
             {showEnglish ? 'Скрыть английский текст' : 'Показать английский текст'}
-          </p>
+          </button>
 
           {showEnglish && (
-            <p className="text-sm italic leading-relaxed text-slate-500 dark:text-slate-400">
+            <p className="mt-2 text-sm italic leading-relaxed text-slate-500 dark:text-slate-400">
               <span className="font-semibold text-[rgb(34,80,128)] dark:text-[rgb(96,165,250)]">What is a collocation?</span>
               <br />
               Collocation means a natural combination of words; it refers to the way English words
@@ -89,7 +89,7 @@ export default function IntroductionScreen({ onExit }: Props) {
             </p>
           )}
         </div>
-      </button>
+      </div>
 
       <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm dark:border-slate-700 dark:bg-slate-900">
         <p className="text-base leading-relaxed">
