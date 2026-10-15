@@ -31,6 +31,7 @@ function WrongCollocation({ word, translation }: { word: string; translation?: s
 
 export default function IntroductionScreen({ onExit }: Props) {
   const [showEnglish, setShowEnglish] = useState(false)
+  const [showEnglish2, setShowEnglish2] = useState(false)
 
   return (
     <div className="space-y-4">
@@ -109,6 +110,38 @@ export default function IntroductionScreen({ onExit }: Props) {
           значение. Это особенно полезно, если вы сдаете письменный экзамен по английскому языку и
           хотите произвести хорошее впечатление на экзаменаторов.
         </p>
+
+        <div className="mt-4 border-t border-slate-200 pt-4 dark:border-slate-700">
+          <button
+            type="button"
+            onClick={() => setShowEnglish2(!showEnglish2)}
+            className="text-xs font-semibold uppercase tracking-wide text-slate-400 transition-colors hover:text-indigo-600 dark:text-slate-500 dark:hover:text-indigo-400"
+          >
+            {showEnglish2 ? 'Скрыть английский текст' : 'Показать английский текст'}
+          </button>
+
+          {showEnglish2 && (
+            <div className="mt-2 space-y-4">
+              <p className="text-sm italic leading-relaxed text-slate-500 dark:text-slate-400">
+                <span className="font-semibold text-[rgb(34,80,128)] dark:text-[rgb(96,165,250)]">Why learn collocations?</span>
+                <br />
+                You need to learn collocations because they will help you to speak and write English
+                in a more natural and accurate way. People will probably understand what you mean if
+                you talk about <WrongCollocation word="making your homework" /> or say{' '}
+                <WrongCollocation word="My uncle is a very high man" /> but your language will sound
+                unnatural and might perhaps confuse. Did you mean that your uncle is two metres tall
+                or did you mean that he has a high position in government or business?
+              </p>
+              <p className="text-sm italic leading-relaxed text-slate-500 dark:text-slate-400">
+                Learning collocations will also help you to increase your range of English
+                vocabulary. For example, you'll find it easier to avoid words like very or nice or
+                beautiful or get by choosing a word that fits the context better and has a more
+                precise meaning. This is particularly useful if you are taking a written exam in
+                English and want to make a good impression on the examiners.
+              </p>
+            </div>
+          )}
+        </div>
       </div>
     </div>
   )
