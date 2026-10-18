@@ -270,9 +270,9 @@ export default function IntroductionScreen({ onExit }: Props) {
               Во-вторых, мы решили, что для вас будет полезнее всего сосредоточиться на тех
               устойчивых словосочетаниях, которые не столь очевидны и которые, как показывает
               «Кембриджский корпус текстов учащихся», часто вызывают у студентов затруднения. Такие
-              выражения, как <OrangeWord>«friendly girl»</OrangeWord>,{' '}
-              <OrangeWord>«cold water»</OrangeWord> или{' '}
-              <OrangeWord>«to eat an apple»</OrangeWord> — это тоже устойчивые словосочетания,
+              выражения, как «<OrangeWord>friendly girl</OrangeWord>»,{' '}
+              «<OrangeWord>cold water</OrangeWord>» или{' '}
+              «<OrangeWord>to eat an apple</OrangeWord>» — это тоже устойчивые словосочетания,
               однако их легко понять и использовать самостоятельно, не испытывая при этом никаких
               проблем. Поэтому здесь мы рассматриваем менее очевидные, но не менее полезные сочетания
               слов: например, <CollocationWord word="завести друзей" translation="make friends" /> (а не{' '}
