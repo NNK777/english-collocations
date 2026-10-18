@@ -195,7 +195,7 @@ export default function IntroductionScreen({ onExit }: Props) {
                     You need to learn collocations because they will help you to speak and write English
                     in a more natural and accurate way. People will probably understand what you mean if
                     you talk about «<WrongCollocation word="making your homework" />» or say{' '}
-                    «<WrongCollocation word="My uncle is a very high man" />» but your language will sound
+                    «My uncle is a very <WrongCollocation word="high man" />» but your language will sound
                     unnatural and might perhaps confuse. Did you mean that your uncle is two metres tall
                     or did you mean that he has a high position in government or business?
                   </p>
