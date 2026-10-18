@@ -256,9 +256,30 @@ export default function IntroductionScreen({ onExit }: Props) {
               </button>
 
               {showEnglish3 && (
-                <p className="mt-2 text-sm italic leading-relaxed text-slate-500 dark:text-slate-400">
-                  English text will be added later.
-                </p>
+                <div className="mt-2 space-y-4">
+                  <p className="text-sm italic leading-relaxed text-slate-500 dark:text-slate-400">
+                    <span className="font-semibold text-[rgb(34,80,128)] dark:text-[rgb(96,165,250)]">How were the collocations in the book selected?</span>
+                    <br />
+                    The collocations presented in this book were mainly selected from those identified
+                    as significant by the Cambridge International Corpus of written and spoken English
+                    (now known as the Cambridge English Corpus) and also the CANCODE corpus of
+                    spoken English, developed at the University of Nottingham in association with
+                    Cambridge University Press. The Cambridge English Corpus is a vast database of
+                    real English taken from a range of sources, such as books, newspapers,
+                    advertising, letters and emails, websites, conversations and speeches, radio and
+                    television. By studying this corpus we obtained a representative picture of how
+                    English is really used and which words naturally and frequently go together. We
+                    also made much use of the Cambridge Learner Corpus, a corpus of learner English
+                    made up of exam scripts from students taking Cambridge English examinations all
+                    over the world. This particular corpus showed us what kind of collocation
+                    errors learners tend to make.
+                  </p>
+                  <p className="text-sm italic leading-relaxed text-slate-500 dark:text-slate-400">
+                    These corpora show that there are many thousands of collocations in English. So
+                    how could we select which ones would be most useful for you to work on in this
+                    book?
+                  </p>
+                </div>
               )}
             </div>
           </div>
