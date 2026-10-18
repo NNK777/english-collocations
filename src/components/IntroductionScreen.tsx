@@ -283,7 +283,7 @@ export default function IntroductionScreen({ onExit }: Props) {
             <p className="mt-4 text-base leading-relaxed">
               Идиомы — это особый тип словосочетаний, в которых фиксированная группа слов имеет
               значение, которое невозможно угадать, зная значение отдельных слов. Мы рассматриваем
-              их отдельно в курсе «English Idioms in Use», поэтому здесь не будем на них
+              их отдельно в курсе «<OrangeWord>English Idioms in Use</OrangeWord>», поэтому здесь не будем на них
               останавливаться.
             </p>
 
