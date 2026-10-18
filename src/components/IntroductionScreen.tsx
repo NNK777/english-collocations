@@ -248,9 +248,9 @@ export default function IntroductionScreen({ onExit }: Props) {
             <p className="text-base leading-relaxed">
               Во-первых, конечно же, мы хотели выбрать те выражения, которые вы могли бы использовать в
               своём письменном и разговорном английском. Так, в разделе «Еда и напитки» мы включили,
-              например, выражения <em className="font-semibold text-emerald-600 dark:text-emerald-400">«have a quick snack»</em> и{' '}
-              <em className="font-semibold text-emerald-600 dark:text-emerald-400">«processed food»</em>, но не{' '}
-              <em className="font-semibold text-emerald-600 dark:text-emerald-400">«cocoa butter»</em> — это
+              например, выражения «<em className="font-semibold text-emerald-600 dark:text-emerald-400">have a quick snack</em>» и{' '}
+              «<em className="font-semibold text-emerald-600 dark:text-emerald-400">processed food</em>», но не{' '}
+              «<em className="font-semibold text-emerald-600 dark:text-emerald-400">cocoa butter</em>» — это
               весьма устойчивое словосочетание, однако большинству людей оно вряд ли часто понадобится.
             </p>
 
