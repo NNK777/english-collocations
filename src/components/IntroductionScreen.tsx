@@ -303,22 +303,49 @@ export default function IntroductionScreen({ onExit }: Props) {
                     <br />
                     The collocations presented in this book were mainly selected from those identified
                     as significant by the Cambridge International Corpus of written and spoken English
-                    (now known as the Cambridge English Corpus) and also the CANCODE corpus of
-                    spoken English, developed at the University of Nottingham in association with
-                    Cambridge University Press. The Cambridge English Corpus is a vast database of
-                    real English taken from a range of sources, such as books, newspapers,
-                    advertising, letters and emails, websites, conversations and speeches, radio and
-                    television. By studying this corpus we obtained a representative picture of how
-                    English is really used and which words naturally and frequently go together. We
-                    also made much use of the Cambridge Learner Corpus, a corpus of learner English
-                    made up of exam scripts from students taking Cambridge English examinations all
-                    over the world. This particular corpus showed us what kind of collocation
-                    errors learners tend to make.
+                    (now known as the Cambridge English Corpus) and also the CANCODE corpus of spoken
+                    English, developed at the University of Nottingham in association with Cambridge
+                    University Press. The Cambridge English Corpus is a vast database of real English
+                    taken from a range of sources, such as books, newspapers, advertising, letters and
+                    emails, websites, conversations and speeches, radio and television. By studying
+                    this corpus we obtained a representative picture of how English is really used and
+                    which words naturally and frequently go together. We also made much use of the
+                    Cambridge Learner Corpus, a corpus of learner English made up of exam scripts from
+                    students taking Cambridge English examinations all over the world. This particular
+                    corpus showed us what kind of collocation errors learners tend to make.
                   </p>
                   <p className="text-sm italic leading-relaxed text-slate-500 dark:text-slate-400">
-                    These corpora show that there are many thousands of collocations in English. So
-                    how could we select which ones would be most useful for you to work on in this
-                    book?
+                    These corpora show that there are many thousands of collocations in English. So how
+                    could we select which ones would be most useful for you to work on in this book?
+                  </p>
+                  <p className="text-sm italic leading-relaxed text-slate-500 dark:text-slate-400">
+                    Firstly, of course, we wanted to choose ones that you might want to use in your own
+                    written and spoken English. So, in the unit on Eating and drinking we include, for
+                    example,{' '}
+                    <em className="font-semibold text-emerald-600 dark:text-emerald-400">have a quick snack</em> and{' '}
+                    <em className="font-semibold text-emerald-600 dark:text-emerald-400">processed food</em> but not{' '}
+                    <em className="font-semibold text-emerald-600 dark:text-emerald-400">cocoa butter</em>, which is a
+                    very strong collocation, but one which has very limited use for most people.
+                  </p>
+                  <p className="text-sm italic leading-relaxed text-slate-500 dark:text-slate-400">
+                    Secondly, we decided it would be most useful for you if we focused on those
+                    collocations which are not immediately obvious and which the Cambridge Learner
+                    Corpus shows can cause problems for students. A{' '}
+                    <OrangeWord>friendly girl</OrangeWord>, <OrangeWord>cold water</OrangeWord> or{' '}
+                    <OrangeWord>to eat an apple</OrangeWord> are all collocations, but they are
+                    combinations which you can easily understand and produce yourself without any
+                    problems. So we deal here with less obvious – though equally useful – word
+                    combinations, with, for instance,{' '}
+                    <em className="font-semibold text-emerald-600 dark:text-emerald-400">make friends</em> (not{' '}
+                    <StrikeRedWord>get friends</StrikeRedWord>) and{' '}
+                    <em className="font-semibold text-emerald-600 dark:text-emerald-400">heavy rain</em> (not{' '}
+                    <StrikeRedWord>strong rain</StrikeRedWord>).
+                  </p>
+                  <p className="text-sm italic leading-relaxed text-slate-500 dark:text-slate-400">
+                    Idioms are a special type of collocation where a fixed group of words has a meaning
+                    that cannot be guessed by knowing the meaning of the individual words. We deal with
+                    them separately in <OrangeWord>English Idioms in Use</OrangeWord> and so do not
+                    focus on them here.
                   </p>
                 </div>
               )}
