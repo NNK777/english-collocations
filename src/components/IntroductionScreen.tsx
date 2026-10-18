@@ -68,10 +68,6 @@ export default function IntroductionScreen({ onExit }: Props) {
     setExpandedBlock((prev) => (prev === index ? null : index))
   }
 
-  const toggleEnglish = (setter: React.Dispatch<React.SetStateAction<boolean>>) => {
-    setter((prev) => !prev)
-  }
-
   return (
     <div className="space-y-3">
       <div className="flex items-center justify-between">
@@ -118,7 +114,7 @@ export default function IntroductionScreen({ onExit }: Props) {
             <div className="mt-4 border-t border-slate-200 pt-4 dark:border-slate-700">
               <button
                 type="button"
-                onClick={() => toggleEnglish(setShowEnglish)}
+                onClick={() => setShowEnglish(!showEnglish)}
                 className="text-xs font-semibold uppercase tracking-wide text-slate-400 transition-colors hover:text-indigo-600 dark:text-slate-500 dark:hover:text-indigo-400"
               >
                 {showEnglish ? 'Скрыть английский текст' : 'Показать английский текст'}
@@ -181,7 +177,7 @@ export default function IntroductionScreen({ onExit }: Props) {
             <div className="mt-4 border-t border-slate-200 pt-4 dark:border-slate-700">
               <button
                 type="button"
-                onClick={() => toggleEnglish(setShowEnglish2)}
+                onClick={() => setShowEnglish2(!showEnglish2)}
                 className="text-xs font-semibold uppercase tracking-wide text-slate-400 transition-colors hover:text-indigo-600 dark:text-slate-500 dark:hover:text-indigo-400"
               >
                 {showEnglish2 ? 'Скрыть английский текст' : 'Показать английский текст'}
@@ -228,28 +224,40 @@ export default function IntroductionScreen({ onExit }: Props) {
           </span>
         </button>
         {expandedBlock === 2 && (
-          <div className="px-5 pb-5">
+          <div className="space-y-4 px-5 pb-5">
             <p className="text-base leading-relaxed">
               Коллокации, представленные в этом курсе, были в основном отобраны из тех, которые были
               признаны значимыми Кембриджским международным корпусом письменного и разговорного
-              английского языка (ныне известным как Кембриджский английский корпус), а также корпусом
-              разговорного английского языка CANCODE, разработанным в Ноттингемском университете в
-              сотрудничестве с издательством Cambridge University Press. Кембриджский корпус английского
-              языка — это обширная база данных реальных текстов на английском языке, взятых из
-              различных источников, таких как книги, газеты, реклама, письма и электронные письма,
-              веб-сайты, разговоры и речи, а также радио и телевидение. Изучив этот корпус, была
-              получена репрезентативная картину того, как на самом деле используется английский язык и
-              какие слова естественным образом и часто встречаются вместе. Также широко использовался
+              английского языка (ныне известным как Кембриджский корпус английского языка), а также
+              корпусом разговорного английского языка CANCODE, разработаным в Ноттингемском
+              университете в сотрудничестве с издательством Cambridge University Press. Кембриджский
+              корпус английского языка — это обширная база данных реальных текстов на английском языке,
+              взятых из различных источников, таких как книги, газеты, реклама, письма и электронные
+              письма, веб-сайты, разговоры и речи, а также радио и телевидение. Изучив этот корпус,
+              была получена репрезентативная картина того, как на самом деле используется английский язык
+              и какие слова естественным образом и часто встречаются вместе. Также широко использовался
               «Кембриджский корпус учащихся» — корпус текстов, написанных учащимися на английском
               языке, составленный из экзаменационных работ студентов, сдававших экзамены по
               английскому языку Кембриджского университета по всему миру. Именно этот корпус показал,
               какие именно ошибки в коллокациях чаще всего допускают учащиеся.
             </p>
+            <p className="text-base leading-relaxed">
+              Эти корпусы показывают, что в английском языке существует несколько тысяч коллокаций. Так
+              как же нам выбрать, какие из них будут для вас наиболее полезны при работе с этим курсом?
+            </p>
+            <p className="text-base leading-relaxed">
+              Во-первых, конечно же, мы хотели выбрать те выражения, которые вы могли бы использовать в
+              своём письменном и разговорном английском. Так, в разделе «Еда и напитки» мы включили,
+              например, выражения <em className="font-semibold text-emerald-600 dark:text-emerald-400">«have a quick snack»</em> и{' '}
+              <em className="font-semibold text-emerald-600 dark:text-emerald-400">«processed food»</em>, но не{' '}
+              <em className="font-semibold text-emerald-600 dark:text-emerald-400">«cocoa butter»</em> — это
+              весьма устойчивое словосочетание, однако большинству людей оно вряд ли часто понадобится.
+            </p>
 
             <div className="mt-4 border-t border-slate-200 pt-4 dark:border-slate-700">
               <button
                 type="button"
-                onClick={() => toggleEnglish(setShowEnglish3)}
+                onClick={() => setShowEnglish3(!showEnglish3)}
                 className="text-xs font-semibold uppercase tracking-wide text-slate-400 transition-colors hover:text-indigo-600 dark:text-slate-500 dark:hover:text-indigo-400"
               >
                 {showEnglish3 ? 'Скрыть английский текст' : 'Показать английский текст'}
