@@ -21,6 +21,18 @@ function CollocationWord({ word, translation }: { word: string; translation: str
   )
 }
 
+function OrangeWord({ children }: { children: React.ReactNode }) {
+  return <em className="font-semibold text-orange-600 dark:text-orange-400">{children}</em>
+}
+
+function StrikeRedWord({ children }: { children: React.ReactNode }) {
+  return (
+    <em className="font-semibold text-red-600 line-through dark:text-red-400">
+      {children}
+    </em>
+  )
+}
+
 function WrongCollocation({ word, translation }: { word: string; translation?: string }) {
   const segs = word.split('your')
   const hasYour = segs.length > 1
@@ -252,6 +264,21 @@ export default function IntroductionScreen({ onExit }: Props) {
               «<em className="font-semibold text-emerald-600 dark:text-emerald-400">processed food</em>», но не{' '}
               «<em className="font-semibold text-emerald-600 dark:text-emerald-400">cocoa butter</em>» — это
               весьма устойчивое словосочетание, однако большинству людей оно вряд ли часто понадобится.
+            </p>
+
+            <p className="mt-4 text-base leading-relaxed">
+              Во-вторых, мы решили, что для вас будет полезнее всего сосредоточиться на тех
+              устойчивых словосочетаниях, которые не столь очевидны и которые, как показывает
+              «Кембриджский корпус текстов учащихся», часто вызывают у студентов затруднения. Такие
+              выражения, как <OrangeWord>«friendly girl»</OrangeWord>,{' '}
+              <OrangeWord>«cold water»</OrangeWord> или{' '}
+              <OrangeWord>«to eat an apple»</OrangeWord> — это тоже устойчивые словосочетания,
+              однако их легко понять и использовать самостоятельно, не испытывая при этом никаких
+              проблем. Поэтому здесь мы рассматриваем менее очевидные, но не менее полезные сочетания
+              слов: например, <CollocationWord word="завести друзей" translation="make friends" /> (а не{' '}
+              <StrikeRedWord>«get friends»</StrikeRedWord>) или{' '}
+              <CollocationWord word="сильный дождь" translation="heavy rain" /> (а не{' '}
+              <StrikeRedWord>«strong rain»</StrikeRedWord>).
             </p>
 
             <div className="mt-4 border-t border-slate-200 pt-4 dark:border-slate-700">
