@@ -113,7 +113,7 @@ export default function IntroductionScreen({ onExit }: Props) {
                   <em className="font-semibold text-emerald-600 dark:text-emerald-400">make</em> and{' '}
                   <em className="font-semibold text-emerald-600 dark:text-emerald-400">mistakes</em>;{' '}
                   <em className="font-semibold text-emerald-600 dark:text-emerald-400">tall</em> goes with{' '}
-                  <em className="font-semibold text-emerald-600 dark:text-emerald-400">man/woman</em> and{' '}
+                  <em className="font-semibold text-emerald-600 dark:text-emerald-400">man</em>/<em className="font-semibold text-emerald-600 dark:text-emerald-400">woman</em> and{' '}
                   <em className="font-semibold text-emerald-600 dark:text-emerald-400">high</em> with{' '}
                   <em className="font-semibold text-emerald-600 dark:text-emerald-400">mountain</em>.
                 </p>
