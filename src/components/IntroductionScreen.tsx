@@ -27,7 +27,7 @@ function OrangeWord({ children }: { children: React.ReactNode }) {
 
 function StrikeRedWord({ children }: { children: React.ReactNode }) {
   return (
-    <em className="font-semibold text-red-600 line-through dark:text-red-400">
+    <em className="font-semibold text-red-600 dark:text-red-400">
       {children}
     </em>
   )
@@ -275,10 +275,10 @@ export default function IntroductionScreen({ onExit }: Props) {
               «<OrangeWord>to eat an apple</OrangeWord>» — это тоже устойчивые словосочетания,
               однако их легко понять и использовать самостоятельно, не испытывая при этом никаких
               проблем. Поэтому здесь мы рассматриваем менее очевидные, но не менее полезные сочетания
-              слов: например, <CollocationWord word="завести друзей" translation="make friends" /> (а не{' '}
-              <StrikeRedWord>«get friends»</StrikeRedWord>) или{' '}
-              <CollocationWord word="сильный дождь" translation="heavy rain" /> (а не{' '}
-              <StrikeRedWord>«strong rain»</StrikeRedWord>).
+              слов: например, «<CollocationWord word="make friends" translation="завести друзей" />» (а не{' '}
+              <StrikeRedWord>get friends</StrikeRedWord>) или{' '}
+              «<CollocationWord word="heavy rain" translation="сильный дождь" />» (а не{' '}
+              <StrikeRedWord>strong rain</StrikeRedWord>).
             </p>
 
             <div className="mt-4 border-t border-slate-200 pt-4 dark:border-slate-700">
