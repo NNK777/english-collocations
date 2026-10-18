@@ -276,9 +276,9 @@ export default function IntroductionScreen({ onExit }: Props) {
               однако их легко понять и использовать самостоятельно, не испытывая при этом никаких
               проблем. Поэтому здесь мы рассматриваем менее очевидные, но не менее полезные сочетания
               слов: например, «<CollocationWord word="make friends" translation="завести друзей" />» (а не{' '}
-              <StrikeRedWord>get friends</StrikeRedWord>) или{' '}
+              «<StrikeRedWord>get friends</StrikeRedWord>») или{' '}
               «<CollocationWord word="heavy rain" translation="сильный дождь" />» (а не{' '}
-              <StrikeRedWord>strong rain</StrikeRedWord>).
+              «<StrikeRedWord>strong rain</StrikeRedWord>»).
             </p>
 
             <div className="mt-4 border-t border-slate-200 pt-4 dark:border-slate-700">
