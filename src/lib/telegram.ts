@@ -1,8 +1,7 @@
 /**
  * Минимальная интеграция с Telegram Mini App.
- * Telegram автоматически внедряет window.Telegram.WebApp в среду Mini App,
- * поэтому внешний SDK не нужен. Локально (вне Telegram) объект отсутствует —
- * приложение работает как обычный сайт.
+ * SDK подключается в index.html (telegram-web-app.js) и создаёт window.Telegram.WebApp.
+ * Локально (вне Telegram) объект отсутствует — приложение работает как обычный сайт.
  */
 
 interface TelegramWebApp {
