@@ -269,7 +269,7 @@ export default function IntroductionScreen({ onExit }: Props) {
             <p className="mt-4 text-base leading-relaxed">
               Во-вторых, мы решили, что для вас будет полезнее всего сосредоточиться на тех
               устойчивых словосочетаниях, которые не столь очевидны и которые, как показывает
-              «Кембриджский корпус текстов учащихся», часто вызывают у студентов затруднения. Такие
+              «Кембриджский корпус учащихся», часто вызывают у студентов затруднения. Такие
               выражения, как «<OrangeWord>friendly girl</OrangeWord>»,{' '}
               «<OrangeWord>cold water</OrangeWord>» или{' '}
               «<OrangeWord>to eat an apple</OrangeWord>» — это тоже устойчивые словосочетания,
