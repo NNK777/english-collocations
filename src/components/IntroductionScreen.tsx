@@ -280,6 +280,12 @@ export default function IntroductionScreen({ onExit }: Props) {
               «<CollocationWord word="heavy rain" translation="сильный дождь" />» (а не{' '}
               «<StrikeRedWord>strong rain</StrikeRedWord>»).
             </p>
+            <p className="mt-4 text-base leading-relaxed">
+              Идиомы — это особый тип словосочетаний, в которых фиксированная группа слов имеет
+              значение, которое невозможно угадать, зная значение отдельных слов. Мы рассматриваем
+              их отдельно в курсе «English Idioms in Use», поэтому здесь не будем на них
+              останавливаться.
+            </p>
 
             <div className="mt-4 border-t border-slate-200 pt-4 dark:border-slate-700">
               <button
