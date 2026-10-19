@@ -299,9 +299,9 @@ export default function IntroductionScreen({ onExit }: Props) {
               {showEnglish3 && (
                 <div className="mt-2 space-y-4">
                   <p className="text-sm italic leading-relaxed text-slate-500 dark:text-slate-400">
-                    <span className="font-semibold text-[rgb(34,80,128)] dark:text-[rgb(96,165,250)]">How were the collocations in the book selected?</span>
+                    <span className="font-semibold text-[rgb(34,80,128)] dark:text-[rgb(96,165,250)]">How were the collocations in the course selected?</span>
                     <br />
-                    The collocations presented in this book were mainly selected from those identified
+                    The collocations presented in this course were mainly selected from those identified
                     as significant by the Cambridge International Corpus of written and spoken English
                     (now known as the Cambridge English Corpus) and also the CANCODE corpus of spoken
                     English, developed at the University of Nottingham in association with Cambridge
@@ -316,7 +316,7 @@ export default function IntroductionScreen({ onExit }: Props) {
                   </p>
                   <p className="text-sm italic leading-relaxed text-slate-500 dark:text-slate-400">
                     These corpora show that there are many thousands of collocations in English. So how
-                    could we select which ones would be most useful for you to work on in this book?
+                    could we select which ones would be most useful for you to work on in this course?
                   </p>
                   <p className="text-sm italic leading-relaxed text-slate-500 dark:text-slate-400">
                     Firstly, of course, we wanted to choose ones that you might want to use in your own
