@@ -1,12 +1,16 @@
 interface Props {
   unitLabel: string
   onExit: () => void
+  onPresentation: () => void
 }
 
-/** Пункты нового экрана юнита. Функции кнопок добавим позже. */
-const OPTIONS = ['Теория / Presentation', 'Упражнения / Exercises', 'Тренировка / Practice']
+export default function UnitScreen({ unitLabel, onExit, onPresentation }: Props) {
+  const options: { label: string; onClick?: () => void }[] = [
+    { label: 'Теория / Presentation', onClick: onPresentation },
+    { label: 'Упражнения / Exercises' },
+    { label: 'Тренировка / Practice' },
+  ]
 
-export default function UnitScreen({ unitLabel, onExit }: Props) {
   return (
     <div className="space-y-3">
       <div className="flex items-center justify-between">
@@ -21,10 +25,11 @@ export default function UnitScreen({ unitLabel, onExit }: Props) {
       </div>
 
       <div className="space-y-2">
-        {OPTIONS.map((label) => (
+        {options.map(({ label, onClick }) => (
           <button
             key={label}
             type="button"
+            onClick={onClick}
             className="w-full rounded-xl border border-slate-200 bg-white px-3 py-4 text-center text-sm font-medium transition-colors hover:border-indigo-300 dark:border-slate-700 dark:bg-slate-900 dark:hover:border-indigo-700"
           >
             {label}

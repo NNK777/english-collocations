@@ -2,6 +2,7 @@ import { useState } from 'react'
 import CategoryPicker from './components/CategoryPicker'
 import IntroductionScreen from './components/IntroductionScreen'
 import UnitScreen from './components/UnitScreen'
+import PresentationScreen from './components/PresentationScreen'
 import QuizScreen from './components/QuizScreen'
 import ResultsScreen from './components/ResultsScreen'
 import { generateQuiz } from './lib/quiz'
@@ -9,7 +10,7 @@ import type { Question, QuizResult } from './lib/quiz'
 import type { QuizConfig } from './lib/types'
 import { useTheme } from './lib/useTheme'
 
-type Screen = 'setup' | 'intro' | 'unit' | 'quiz' | 'results'
+type Screen = 'setup' | 'intro' | 'unit' | 'presentation' | 'quiz' | 'results'
 
 export default function App() {
   const { theme, toggleTheme } = useTheme()
@@ -62,7 +63,17 @@ export default function App() {
         {screen === 'setup' && <CategoryPicker onStart={startQuiz} />}
         {screen === 'intro' && <IntroductionScreen onExit={() => setScreen('setup')} />}
         {screen === 'unit' && (
-          <UnitScreen unitLabel={`Unit ${config.unit}`} onExit={() => setScreen('setup')} />
+          <UnitScreen
+            unitLabel={`Unit ${config.unit}`}
+            onExit={() => setScreen('setup')}
+            onPresentation={() => setScreen('presentation')}
+          />
+        )}
+        {screen === 'presentation' && (
+          <PresentationScreen
+            unitLabel={`Unit ${config.unit}`}
+            onExit={() => setScreen('unit')}
+          />
         )}
         {screen === 'quiz' && (
           <QuizScreen
