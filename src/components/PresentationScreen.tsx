@@ -1,12 +1,64 @@
 import { useState } from 'react'
+import { CollocationWord, WrongCollocation } from './CollocationWords'
 
 interface Props {
   unitLabel: string
   onExit: () => void
 }
 
-/** Разделы презентационной страницы юнита. Содержание добавим позже. */
+/** Разделы презентационной страницы юнита. Содержание B и C добавим позже. */
 const BLOCKS = ['A', 'B', 'C']
+
+function BlockAContent() {
+  return (
+    <>
+      <p className="text-base leading-relaxed">
+        A collocation is a pair or group of words that are often used together. These combinations
+        sound natural to native speakers, but students of English have to{' '}
+        <CollocationWord word="make a special effort" translation="приложить особые усилия" /> to
+        learn them because they are often difficult to guess. Some combinations just sound ‘wrong’
+        to native speakers of English. For example, the adjective fast collocates with cars, but not
+        with a glance.
+      </p>
+      <p className="mt-4 text-base leading-relaxed">
+        Learning collocations is an important part of learning the vocabulary of a language. Some
+        collocations are fixed, or very strong, for example{' '}
+        <CollocationWord word="take a photo" translation="сделать фотографию" />, where no word
+        other than take collocates with photo to give the same meaning. Some collocations are more
+        open, where several different words may be used to give a similar meaning, for example{' '}
+        <CollocationWord word="keep to / stick to the rules" translation="придерживаться правил" />.
+        Here are some more examples of collocations.
+      </p>
+      <ul className="mt-4 list-disc space-y-2 pl-5 text-base leading-relaxed">
+        <li>
+          You must <CollocationWord word="make an effort" translation="приложить усилие" /> and study
+          for your exams (NOT <WrongCollocation word="do an effort" />)
+        </li>
+        <li>
+          Did you <CollocationWord word="watch TV" translation="смотреть телевизор" /> last night?
+          (NOT <WrongCollocation word="look at TV" />)
+        </li>
+        <li>
+          This car has a very{' '}
+          <CollocationWord word="powerful engine" translation="мощный двигатель" />. It can do 200
+          km an hour. (NOT <WrongCollocation word="strong engine" />)
+        </li>
+        <li>
+          There are some{' '}
+          <CollocationWord word="ancient monuments" translation="древние памятники" /> nearby. (NOT{' '}
+          <WrongCollocation word="antique monuments" />)
+        </li>
+      </ul>
+      <p className="mt-4 text-base leading-relaxed">
+        Sometimes, a pair of words may not be absolutely wrong, and people will understand what is
+        meant, but it may not be the natural, normal collocation. If someone says I{' '}
+        <WrongCollocation word="did a few mistakes" />, they will be understood, but a fluent speaker
+        of English would probably say I{' '}
+        <CollocationWord word="made a few mistakes" translation="сделал несколько ошибок" />.
+      </p>
+    </>
+  )
+}
 
 export default function PresentationScreen({ unitLabel, onExit }: Props) {
   const [expandedBlock, setExpandedBlock] = useState<number | null>(null)
@@ -49,9 +101,13 @@ export default function PresentationScreen({ unitLabel, onExit }: Props) {
           </button>
           {expandedBlock === index && (
             <div className="px-5 pb-5">
-              <p className="text-base leading-relaxed text-slate-400 dark:text-slate-500">
-                Содержание раздела будет добавлено позже.
-              </p>
+              {label === 'A' ? (
+                <BlockAContent />
+              ) : (
+                <p className="text-base leading-relaxed text-slate-400 dark:text-slate-500">
+                  Содержание раздела будет добавлено позже.
+                </p>
+              )}
             </div>
           )}
         </div>
