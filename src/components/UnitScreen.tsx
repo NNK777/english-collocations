@@ -4,7 +4,7 @@ interface Props {
 }
 
 /** Пункты нового экрана юнита. Функции кнопок добавим позже. */
-const OPTIONS = ['Теория', 'Упражнения', 'Тренировка']
+const OPTIONS = ['Теория / Presentation', 'Упражнения / Exercises', 'Тренировка / Practice']
 
 export default function UnitScreen({ unitLabel, onExit }: Props) {
   return (
