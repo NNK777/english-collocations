@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { CollocationWord, WrongCollocation } from './CollocationWords'
+import { CollocationWord, OrangeWord, WrongCollocation } from './CollocationWords'
 
 interface Props {
   unitLabel: string
@@ -60,6 +60,37 @@ function BlockAContent() {
   )
 }
 
+function BlockBContent() {
+  return (
+    <>
+      <p className="text-base leading-relaxed">
+        Compounds are units of meaning formed with two or more words. Sometimes the words are
+        written separately, sometimes they have a hyphen and sometimes they are written as one
+        word. Usually the meaning of the compound can be guessed by knowing the meaning of the
+        individual words. Some examples of compounds are{' '}
+        <CollocationWord word="car park" translation="парковка" />,{' '}
+        <CollocationWord word="post office" translation="почта" />,{' '}
+        <CollocationWord word="narrow-minded" translation="узколобый" />,{' '}
+        <CollocationWord word="shoelaces" translation="шнурки" />,{' '}
+        <CollocationWord word="teapot" translation="заварочный чайник" />.
+      </p>
+      <p className="mt-4 text-base leading-relaxed">
+        It is not always easy to separate collocations and compounds and, where they are useful for
+        learners or an important part of the vocabulary of a topic, we include some compounds in
+        this book too.
+      </p>
+      <p className="mt-4 text-base leading-relaxed">
+        Idioms are groups of words in a fixed order that have a meaning that cannot be guessed by
+        knowing the meaning of the individual words. For example,{' '}
+        <CollocationWord word="pass the buck" translation="переложить ответственность" /> is an
+        idiom meaning ‘to pass responsibility for a problem to another person to avoid dealing with
+        it oneself’. We deal with idioms in detail in the book{' '}
+        <OrangeWord>English Idioms in Use</OrangeWord> in this series.
+      </p>
+    </>
+  )
+}
+
 export default function PresentationScreen({ unitLabel, onExit }: Props) {
   const [expandedBlock, setExpandedBlock] = useState<number | null>(null)
 
@@ -103,6 +134,8 @@ export default function PresentationScreen({ unitLabel, onExit }: Props) {
             <div className="px-5 pb-5">
               {label === 'A' ? (
                 <BlockAContent />
+              ) : label === 'B' ? (
+                <BlockBContent />
               ) : (
                 <p className="text-base leading-relaxed text-slate-400 dark:text-slate-500">
                   Содержание раздела будет добавлено позже.
