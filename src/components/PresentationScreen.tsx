@@ -84,7 +84,7 @@ function BlockBContent() {
         knowing the meaning of the individual words. For example,{' '}
         <CollocationWord word="pass the buck" translation="переложить ответственность" /> is an
         idiom meaning ‘to pass responsibility for a problem to another person to avoid dealing with
-        it oneself’. We deal with idioms in detail in the book{' '}
+        it oneself’. We deal with idioms in detail in the course{' '}
         <OrangeWord>English Idioms in Use</OrangeWord> in this series.
       </p>
     </>
