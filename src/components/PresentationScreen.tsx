@@ -77,7 +77,7 @@ function BlockBContent() {
       <p className="mt-4 text-base leading-relaxed">
         It is not always easy to separate collocations and compounds and, where they are useful for
         learners or an important part of the vocabulary of a topic, we include some compounds in
-        this book too.
+        this course too.
       </p>
       <p className="mt-4 text-base leading-relaxed">
         Idioms are groups of words in a fixed order that have a meaning that cannot be guessed by
